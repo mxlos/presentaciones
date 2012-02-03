@@ -11,7 +11,7 @@ Presentaciones de mxlOS
 3. Coloca tu presentación dentro del sub-directorio y nombrala
    apropiadamente ;)
 
-Despues solo es cuestion de hacer:
+Después sólo es cuestión de hacer:
 
 `git add .`  
 `git commit -m "Agregar presentacion 'Taller de Vim'"`  
@@ -19,8 +19,9 @@ Despues solo es cuestion de hacer:
 (el nombre de la plática es sólo un ejemplo)
 
 
-Cualquier duda 
+Para cualquier duda, comentario o sugerencia usa los siguientes canales
 --------------
-Twitter: @mxlOS https://twitter.com/#!/mxlOS  
-Web: http://mxlopensource.org/  
-Lista de Correo: http://groups.google.com/group/mxl-opensource  
+* Twitter: @mxlOS https://twitter.com/#!/mxlOS
+* Web: http://mxlopensource.org/
+* Lista de Correo: http://groups.google.com/group/mxl-opensource
+* Reuniones de mxlOS
