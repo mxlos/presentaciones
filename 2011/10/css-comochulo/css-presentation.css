@@ -1,0 +1,15 @@
+#title-slide h1 { text-align: left; }
+#title-slide h1 { color: #c00; }
+#title-slide h1 code { font-size: 92px; }
+
+#title-slide p { clear: both; position: fixed; bottom: 50px; right: 90px; text-align: right; }
+
+#benefit li, #exercise p, #references li { font-size: 32px; line-height: 150%; }
+#benefit span { font-weight: 700; }
+
+.code { float: left; width: 50%; }
+.deck-container code {
+  color: #444;
+  font-size: 21px;
+  font-weight: 700;
+}
