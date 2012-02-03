@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Intro a BDD y TDD</title>
+    <script src="scripts/slidy.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="styles/slidy.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="styles/custom.css" type="text/css" media="screen" />
+    <meta name="font-size-adjustment" content="-1" />
+  </head>
+  <body>
+      <div id="slide-01" class="slide cover title">
+        <h1 id="title">Intro a BDD y TDD</h1>
+        <div id="" class="copy">
+          <p>por José Antonio Antillón<br />
+          @antillas21<br />
+          antillas21@gmail.com</p>
+        </div>
+      </div>
+      <div id="slide-02" class="slide">
+        <h1 class="subtitle">&iquest;Qu&eacute; significa?</h1>
+        <h1>BDD</h1>
+        <h2>Behavior Driven Development</h2>
+        <div id="" class="copy">
+          <p>BDD usa nuestro lenguaje natural en combinación con el del software a construir para describir el propósito o beneficio del código.<br />
+          Permite a los desarrolladores enfocarse en por qué escribir código, en vez de los detalles técnicos y minimiza el traducir el funcionamiento de la aplicación a personas no técnicas.</p>
+        </div>
+        <h1>TDD</h1>
+        <h2>Test Driven Development</h2>
+        <div id="" class="copy">
+          <p>TDD se enfoca en la repetición de un ciclo de desarrollo corto: escribir tests primero que describen una nueva funcionalidad, característica o mejora, ver fallar los tests, escribir código para que los tests pasen y finalmente re-factorizar el código para que cumpla con los estándares del lenguaje de desarrollo.</p>
+        </div>
+      </div>
+      <div id="slide-03" class="slide">
+        <h1>¿Por qué?</h1>
+        <p>Simplemente porque...</p>
+        <ul>
+          <li>se pueden exponer muchos bugs en el código.</li>
+          <li>se puede mejorar la calidad del software.</li>
+          <li>nos permite cambiar el código con confianza.</li>
+          <li>BDD/TDD pueden servir como documentación del código.</li>
+          <li>nos ayudan a escribir código más rápido.</li>
+        </ul>
+      </div>
+      <div id="slide-04" class="slide">
+        <h1>¿Cómo funciona?</h1>
+        <h2>Van de la mano</h2>
+        <div id="" class="copy">
+          <ul>
+            <li>Primero debemos escribir el comportamiento del software a través de Features o Casos de Uso.</li>
+            <li>Generalmente en este paso, se abarca la interacción entre distintos componentes del software (aplicación) en el flujo normal de operación.</li>
+            <li>Al escribir el escenario de operación de un feature, se exponen también características que describen a las entidades que forman la aplicación.</li>
+            <li>Debemos escribir tests que describan/definan estas entidades.</li>
+          </ul>
+        </div>
+      </div>
+      <div id="slide-05" class="slide">
+        <h1>Ciclo Red - Green - Refactor</h1>
+	<h2>...o lo que es lo mismo: "Enjabone, Enjuague, Repita"</h2>
+        <div id="" class="copy">
+          <ul>
+            <li>Se debe escribir un test que falla primero antes que escribir la primer línea de código. El código debe escribirse hasta verificar que el test falla.</li>
+            <li>Después que el test falla, se escribe la mínima cantidad de código para hacer que el test pase.</li>
+            <li>Una vez que el test pasa, se re-escribe el código para optimizarlo, eliminando redundancias, malas prácticas, "code-smells".</li>
+            <li>Durante el tiempo que se escribe código, se buscan oportunidades tanto para re-factorizar el código, como los tests.</li>
+            <li>Recuerda: Un test debe fallar primero.</li>
+          </ul>
+        </div>
+      </div>
+      <div id="slide-05g" class="slide">
+        <div id="" class="left">
+          <h2>El ciclo se ve así</h2>
+          <img src="imgs/bdd.png" />
+        </div>
+        <div id="" class="right">
+          <h2>Esto es lo que significa</h2>
+          <img src="imgs/RGR-cycle.png" />
+        </div>
+      </div>
+      <div id="slide-06" class="slide">
+        <h1>Veamos un ejemplo</h1>
+        <h2 class="incremental">Se ve interesante, ¿verdad? :)</h2>
+      </div>
+      <div id="slide-07" class="slide">
+        <h1>¿Qué puedo utilizar?</h1>
+        <div id="" class="copy">
+          <ul>
+            <li>
+              Ruby
+              <ul>
+              <li>Cucumber (<a href="http://cukes.info">http://cukes.info/</a>)</li>
+              <li>Steak (<a href="https://github.com/cavalle/steak">https://github.com/cavalle/steak</a>)</li>
+              <li>RSpec (<a href="http://relishapp.com/rspec">http://relishapp.com/rspec</a>)</li>
+              <li>Test::Unit (<a href="http://test-unit.rubyforge.org/">http://test-unit.rubyforge.org/</a>)</li>
+            </ul>
+            </li>
+            <li>
+            PHP
+            <ul>
+              <li>Behat (<a href="http://behat.org/">http://behat.org/</a>)</li>
+              <li>SimpleTest (<a href="http://simpletest.org/">http://simpletest.org/</a>)</li>
+              <li>PHPUnit (<a href="https://github.com/sebastianbergmann/phpunit/">https://github.com/sebastianbergmann/phpunit/</a>)</li>
+            </ul>
+            </li>
+            <li>
+            Python
+            <ul>
+              <li>pyVows (<a href="http://heynemann.github.com/pyvows/">http://heynemann.github.com/pyvows/</a>)</li>
+              <li>Lettuce (<a href="http://lettuce.it/">http://lettuce.it/</a>)</li>
+              <li>nose (<a href="http://readthedocs.org/docs/nose/en/latest/">http://readthedocs.org/docs/nose/en/latest/</a>)</li>
+              <li>pymock (<a href="http://theblobshop.com/pymock/">http://theblobshop.com/pymock/</a>)</li>
+              </ul>
+              </li>
+              <li>
+              Perl
+              <ul>
+                <li>Test-Cukes (<a href="http://search.cpan.org/~gugod/Test-Cukes-0.10/">http://search.cpan.org/~gugod/Test-Cukes-0.10/</a>)</li>
+                <li>Cucumber for Perl 5 (<a href="https://github.com/kesor/p5-cucumber">https://github.com/kesor/p5-cucumber</a>)</li>
+                <li>Test::More (<a href="https://metacpan.org/module/Test::More">https://metacpan.org/module/Test::More</a>)</li>
+              </ul>
+              </li>
+          </ul>
+        </div>
+      </div>
+  </body>
+</html>
