@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  
+  <!--[if lt IE 9]>
+  <script src="../lib/html5shim.js"></script>
+  <![endif]-->  
+  
+  <!-- These are some core styles the slideshow app requires -->
+  <link rel="stylesheet" href="lib/styles.css" />
+  
+  <!-- These are the styles you'll add to make the slides look great -->
+  <link rel="stylesheet" href="css/styles.css" />
+  
+  <title>Startup Weekend</title>
+</head>
+<body>
+  <header>
+    <h1>Startup Weekend</h1>
+    <nav>
+      <ul>
+        <li><button id="prev-btn" title="Previous slide">Previous Slide</button></li>
+        <li><span id="slide-number"></span>/<span id="slide-total"></span></li>
+        <li><button id="next-btn" title="Next Slide">Next Slide</button></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="deck">
+    
+    <!-- Begin slides -->
+    <section>
+      <hgroup>
+      </hgroup>
+      <p><img src="i/logo.png" /></p>
+    </section>
+    <section>
+      <hgroup>
+        <h1>Que es el Startup Weekend?</h1>
+        </hgroup>
+        <p>En <strong>54</strong> horas:</p>
+      <ul>
+        <li>Encuentra una idea sobre la cual trabajar</li>
+        <li>Unete a un equipo (o recluta!)</li>
+        <li>Construye un producto, servicio, o lo que sea</li>
+        <li>Presenta tu pitch</li>
+      </ul>
+    </section>
+
+    <section>
+      <hgroup>
+        <h1>Porque ir?</h1>
+      </hgroup>
+
+      <ul>
+        <li>Networking</li>
+        <li>Aprender</li>
+        <li>Ayuda a validar tu idea</li>
+        <li>Mentores</li>
+      </ul>
+
+    </section>
+
+    <section>
+      <hgroup>
+        <h1>Como funciona?</h1>
+      </hgroup>
+      <p><img src="i/1.jpg" /></p>
+    </section>
+
+    <section>
+      <hgroup>
+        <h1>Como funciona?</h1>
+      </hgroup>
+      <p><img src="i/2.jpg" /></p>
+    </section>
+
+    <section>
+      <hgroup>
+        <h1>Como funciona?</h1>
+      </hgroup>
+      <p><img src="i/3.jpg" /></p>
+    </section>
+    <section>
+      <hgroup>
+        <h1>Como funciona?</h1>
+      </hgroup>
+      <p><img src="i/4.jpg" /></p>
+    </section>
+    <section>
+      <hgroup>
+        <h1>Como funciona?</h1>
+      </hgroup>
+      <p><img src="i/5.jpg" /></p>
+    </section>
+    <section>
+      <hgroup>
+        <h1>Como funciona?</h1>
+      </hgroup>
+      <p><img src="i/6.jpg" /></p>
+    </section>
+    <section>
+      <hgroup>
+        <h1>Como funciona?</h1>
+      </hgroup>
+      <p><img src="i/7.jpg" /></p>
+    </section>
+
+    <section>
+      <hgroup>
+        <h1>Como funciona?</h1>
+      </hgroup>
+      <p><img src="i/8.jpg" /></p>
+    </section>
+    <section>
+      <hgroup>
+        <h1>Como funciona?</h1>
+      </hgroup>
+      <p><img src="i/9.jpg" /></p>
+    </section>
+    <section>
+      <hgroup>
+        <h1>Como funciona?</h1>
+      </hgroup>
+      <p><img src="i/10.jpg" /></p>
+    </section>
+    <section>
+      <hgroup>
+        <h1>Como funciona?</h1>
+      </hgroup>
+      <p><img src="i/11.jpg" /></p>
+    </section>
+    <section>
+      <hgroup>
+        <h1>Como funciona?</h1>
+      </hgroup>
+      <p><img src="i/fin.jpg" /></p>
+    </section>
+
+
+
+
+  	<section>
+      <hgroup>
+        <h1>Datos Interesantes</h1>
+        </hgroup>
+
+      <ul>
+        <li>95% de las ideas estan relacionadas con internet o tecnologia movil</li>
+        <li>36% de las startups formadas aun siguen trabajando despues de 3 meses</li>
+        <li>96% de los asistentes desean ir a otro Startup Weekend</li>
+      </ul>
+    </section>
+  	<section>
+      <hgroup>
+        <h1>Asiste!</h1>
+      </hgroup>
+      <h2>Proximos Eventos</h2>
+      <p><strong>Hermosillo</strong>: 14-16 de Octubre</p>
+      <p><strong>Puebla</strong>: 18-20 de Noviembre </p>
+      <p><strong>DF</strong>: 11-13 de Noviembre</p>
+      
+    </section>    
+  	<section>
+      <hgroup>
+        <h1>Fin... preguntas?</h1>
+      </hgroup>
+      <p>Presentacion disponible en <a href="http://favrik.com/slides/sw/">favrik.com/slides/sw/</a>.</p>
+      <p>&ndash; Favio Manriquez Leon / <a href="http://twitter.com/favrik">@favrik</a> / <a href="mailto:favio@favrik.com">favio@favrik.com</a></p>
+    </section>
+    <!-- /End slides -->
+    
+  </div>
+  <!-- /deck -->
+  <script src="lib/jquery-1.5.2.min.js"></script>
+  <script src="lib/jquery.jswipe-0.1.2.js"></script>  
+  <script src="lib/htmlSlides.js"></script>
+  <script>
+    //Do our business when the DOM is ready for us
+    $(function() {
+      
+      //You can trigger Javascript based on the slide number like this:
+      $('html').bind('newSlide', function(e, id) { 
+        switch(id) {
+          case 2:
+            console.log('This is the second slide.');;
+            break;
+          case 3:
+            console.log('Hello, third slide.');
+            break;
+        }
+      });
+
+      //One little option: hideToolbar (boolean; default = false)
+      htmlSlides.init({ hideToolbar: true });
+      
+    });
+  </script>
+  </body>
+</html>

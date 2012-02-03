@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'ChunkFiveRegular';
+	src: url('../fonts/Chunkfive-webfont.eot');
+	src: local('☺'), url('../fonts/Chunkfive-webfont.woff') format('woff'), url('../fonts/Chunkfive-webfont.ttf') format('truetype'), url('../fonts/Chunkfive-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+html {
+    overflow: auto;
+}
+
+body{ background:#f5f6f6; }
+#deck h1 { line-height: 1em; font-family: 'ChunkFiveRegular', Arial; font-size:68px; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.8); }
+#deck h2 { font-family: 'ChunkFiveRegular', Arial; font-size: 30px; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.8); }
+#deck p, #deck li { font-family: Arial; font-size:20px; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.8); }
+
+
+#deck p, #deck li {
+    font-size: 40px;
+}
+
+#deck ul {
+    padding-left: 80px;
+
+}
+
+.slide p {
+    margin: 10px 0;
+}
+
+.slide li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
