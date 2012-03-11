@@ -1,0 +1,2693 @@
+\documentclass[12pt,spanish,doc]{apa}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage[letterpaper]{geometry}
+\geometry{verbose,tmargin=2.5cm,bmargin=2.5cm,lmargin=2.5cm,rmargin=2.5cm}
+\usepackage{textcomp}
+\usepackage[authoryear]{natbib}
+
+\makeatletter
+
+
+\newcommand{\noun}[1]{\textsc{#1}}
+
+
+\helvetica
+\author{Author} 
+\affiliation{Affiliation}
+
+
+\usepackage{setspace}
+\usepackage{epigraph}
+\usepackage{url}
+
+
+\journal{Coloquio de la maestría de estudios socioculturales}
+
+
+\ccoppy{\textcopyright\ Miguel Lozano}
+
+
+
+\acknowledgements{Miguel Ángel Lozano (Mexicali, 1982) es ingeniero en sistemas computacionales por parte del Instituto Tecnológico de Mexicali y docente del Colegio de Bachilleres del Estado de Baja California.}
+\doublespacing
+
+\makeatother
+
+\usepackage{babel}
+\addto\shorthandsspanish{\spanishdeactivate{~<>.}}
+
+\begin{document}
+
+\title{Silicon Borders: Prácticas hacker en la frontera de las Californias}
+
+
+\rightheader{Silicon Borders}
+
+
+\author{Miguel Ángel Lozano}
+
+
+\affiliation{Centro de Investigaciones Culturales-Museo\\
+Universidad Autónoma de Baja California}
+
+
+\abstract{Los \emph{hackers} son sujeto de especulación constante por parte
+del periodismo, la literatura, el cine y el usuario convencional de
+Internet. A pesar de esto, es muy poco lo que sabemos sobre ellos.
+Los estudios sobre la cultura \emph{hacker} son escasos y se enfocan
+principalmente a Estados Unidos y Europa. El presente trabajo plantea
+un estudio cultural de las prácticas \emph{hacker} realizadas en la
+frontera entre California y Baja California, limitándose a las reuniones
+públicas de \emph{hackers} que se realizan regularmente. Esto bajo
+una perspectiva etnográfica contextualizando en la sociedad de la
+información.}
+
+\maketitle
+\textbf{E-Mail: }el.badbit@gmail.com
+
+\textbf{Director de tesis:} Dr. Luis Arturo Ongay Flores
+
+\pagebreak
+\tableofcontents
+\pagebreak
+\epigraph{
+	\emph{My much-publicized hacking career actually started when I was in high school. While I cannot describe the detail here, suffice it to say that one of the driving forces in my early hacks was to be accepted by the guys in the hacker groups.}}
+{\emph{The art of deception}
+\linebreak
+Kevin Mitnick}
+
+
+\section{Introducción}
+
+Los \emph{hackers} son sujeto de especulación constante por parte
+del periodismo, la literatura, el cine y el usuario cotidiano de Internet.
+Estudiar este tema es luchar en contra de una gran cantidad de estereotipos
+y prejuicios. Se nos advierte que tengamos cuidado los hackers como
+si se trataran de salteadores de caminos. El periodismo nos los muestra
+en un momento como criminales informáticos, en otro como contrabandistas
+de software y cada vez más como activistas políticos. En el cine son
+personajes con habilidades técnicas sobrehumanas, capaces de burlar
+los más complejos sistemas de seguridad. En la literatura han terminado
+por fusionarse con las máquinas y son mercenarios de un futuro virtual
+hipertecnologizado.
+
+Se piensa que los \emph{hackers} poseen una organización tan hermética
+que nunca podremos acceder a sus discursos y técnicas. Cuando mencionaba
+que quería estudiar a los \emph{hackers}, compañeros e investigadores
+me siempre la misma pregunta: {}``¿Vas a poder accesar a ellos? ¿Van
+a querer hablar contigo?''. Otra muy frecuente: {}``¿No tienes miedo
+de que vayan a \emph{hackearte}?''
+
+Cuando uno contrasta las representaciones con la vida cotidiana, las
+cosas cambian. Muchos \emph{hackers} se reúnen en público todos los
+meses. Existen programas de radio que discuten \emph{hacking} y también
+una revista impresa con más de veinte años de circulación. He comprado
+esa revista en la librería \emph{Borders}, por ejemplo, en el mismo
+estante donde se encuentra \emph{Rolling Stone} o \emph{Time}. En
+diferentes partes del mundo se realizan convenciones donde cientos
+o miles de \emph{hackers} se reúnen para asistir a talleres, conferencias
+y concursos.
+
+Aún así no se puede generalizar afirmando que todos ellos comparten
+esta apertura. Hay comunicaciones más ocultas y secretas, por supuesto.
+Organizaciones subterráneas que manejan un mayor nivel de confidencialidad,
+prácticas ilegales y secretos. Muchos \emph{hackers} poseen identidades
+{}``virtuales'', identificándose exclusivamente a través de pseudónimo
+en Internet.
+
+Este tema intersecta diferentes disciplinas y puede ser aproximado
+desde una multiplicidad de enfoques. No sólo requiere una comprensión
+de la tecnología electrónica e informática, también involucra cuestiones
+políticas, ideológicas, filosóficas y económicas. Actualmente podemos
+leer sobre las actividades de grupos como \emph{Anonymous} que atacan
+a compañías privadas y sistemas gubernamentales por motivos políticos.
+También existe en varios países un {}``Partido Pirata'' que promueve
+en el ámbito político valores surgidos dentro de la comunidad \emph{hacker}.
+Los principios del software libre, impulsado por \emph{hackers} desde
+los años ochenta, son eminentemente filosóficos.
+
+Investigaciones como esta me parecen importantes. No hay muchas, pero
+las que hay nos ayudan a esclarecer este mundo que parece totalmente
+secreto o subterráneo. Diferentes autores han descubierto que los
+\emph{hackers} poseen cierta ética, ideas claras sobre la tecnología
+y su rol en la sociedad. Como grupo son un importante factor de cambio
+tecnológico. Para una sociedad de la información, como describe Castells,
+esto significa que son un importante factor de cambio social.
+
+Escribo esto con el objetivo de que todo mundo pueda leerlo con interés.
+Desde mis estudiantes de preparatoria, pasando por los investigadores
+culturales hasta los mismos \emph{hackers}. Este documento presenta
+los avances realizados durante los primeros dos semestres, en marco
+de la Maestría de Estudios Socioculturales (MESC) del Centro de Investigaciones
+Culturales-Museo de la Universidad Autónoma de Baja California.
+
+
+\section{Antecedentes}
+
+
+\subsection{Motivación personal}
+
+No sé cuando inició mi interés por la tecnología. Tampoco recuerdo
+la primera vez que utilicé una computadora. Aprendí los comandos de
+MS-DOS antes de entrar a la primaria y pronto se convirtió en mi segunda
+lengua. En los ochenta todavía era muy extraño que una persona tuviera
+su propia computadora en casa. Tuve que buscar acceso a ellas donde
+pudiera. Lo conseguía normalmente en el trabajo de mi papá o en las
+tiendas donde las tenían en exhibición. 
+
+La primera vez que usé Internet fue en 1994 y realicé búsquedas sobre
+el Chupacabras y el videojuego \emph{Doom}. No se me ocurrió mucho
+más, ese complejísimo sistema era un total misterio para mí. Se decía
+que era enorme, se decía que era internacional y no tenía fronteras,
+que la información se encontraba disponible para cualquiera. Lo que
+hoy se escucha sin parpadear era la gran promesa de principio de los
+noveta. Leía y escuchaba mucho sobre la {}``supercarretera de la
+información'', pero llevar a cabo a la práctica esas promesas no
+era tan sencillo en aquel entonces.
+
+Mi primer contacto con el mundo \emph{hacker} se dio cuando cursaba
+segundo año de secundaria. Uno de mis amigos de otro grupo se acercó
+corriendo al salón con unas hojas impresas en la mano. Las sacudía
+con emoción y exclamaba que había entrado a Internet a investigar
+{}``cómo \emph{hackear}''. {}``¡Vamos a ser \emph{hackers}!''
+me dijo emocionado. Aún recuerdo que contenían información sobre dispositivos
+para la modificación de tarjetas de crédito y algunas teorías de acceso
+no autorizado a satélites.
+
+Aunque esto puede sonar a trama de película de ciencia ficción, ahora
+me río de la información que contenían esas hojas. Era totalmente
+inofensiva: No había detalles técnicos ni una serie de pasos a seguir.
+Era únicamente una goma de mascar para la imaginación. Lo impactante
+fue enterarme de que, buscando bien, ese tipo de información podría
+encontrarse en Internet. Esto alimentó un fuerte interés para aprender
+lo que yo creía que era el \emph{hacking}. Después de tantos años
+la memoria me falla, pero no era la primera vez que escuchaba de estos
+personajes expertos y misteriosos. Lo más seguro es que los vi en
+el cine y las noticias.
+
+Conocí el \emph{underground} informático buscando por mi cuenta y
+obteniendo acceso a Internet en donde me fuera posible. Una gran fuente
+de información fueron las revistas electrónicas (\emph{e-zines}) publicadas
+digitalmente por varios grupos de \emph{hackers.} Se podían descargar
+gratis (en ese entonces nada costaba en Internet) y no sólo se detallaban
+actividades tecnológicas, también se reflexionaba y comentaba sobre
+temas de interés para ellos, se enviaban saludos y se buscaba crear
+vínculos de comunicación con otros \emph{hackers}.
+
+De esta manera decidí crear mi propia revista junto con algunos amigos
+cuando tenía dieciséis años. La publicamos cada dos meses y pudimos
+hacerlo durante dos años. De nueva cuenta, en retrospectiva lo veo
+como un intento por emular a nuestros héroes y no tanto como un aporte
+significativo para el \emph{underground}. Me fascinaba la idea de
+poseer una identidad virtual, un nombre en Internet que creciera más
+que el de Miguel Lozano y su triste y convencional realidad. 
+
+Escogí el pseudónimo de {}``BadBit'' por varios motivos. Un bit
+es la unidad más pequeña de información que puede manejar una computadora.
+Únicamente puede representar un dígito binario: Un uno o un cero.
+Estos dígitos se agrupan en paquetes de ocho para formar un byte,
+una unidad que ya tiene significado. Los bytes se agrupan y forman
+información más compleja, pero si un bit está incorrecto, o erróneo,
+toda la información está corrupta. Por eso {}``BadBit'', un bit
+{}``malo'', erróneo, afecta un sistema mucho más grande. Era mi
+manera de expresar que una mínima participación puede afectar algo
+muy complejo.
+
+Durante este periodo asumí como realidad cotidiana que los \emph{hackers}
+eran protagonistas fantasías exageradas. Lo que el ciudano de a pie
+pensaba sobre ellos y lo que aparecía en los medios distaba mucho
+de lo que yo leía en las \emph{e-zines} o textos informativos. Incluso
+de mi práctica personal. En el cine, por una parte, eran mostrados
+como audaces espías informáticos con habilidades casi mágicas. Los
+personajes principales con frecuencia recurrían a ellos para solucionar
+problemas insalvables, o en ocasiones eran perseguidos injustamente
+por algún villano internacional.
+
+En el periodismo, por otra parte, los \emph{hackers} representaban
+una terrible amenaza para todos los usuarios de Internet. Podían robar
+información, dinero de bancos en línea y la propia identidad personal.
+Para mis amigos y yo era divertidísimo ver cómo el desconocimiento
+de las tecnologías llevaba a los periodistas a especular cosas imposibles.
+El inicio de la tercera guerra mundial, por ejemplo. Ver o leer las
+noticias sobre tecnología con frecuencia era obtener material invaluable
+para reír posteriormente. Lo que me sorprendía más es que la mayor
+parte de la gente se quedaba con lo que decían los noticieros. A mi
+me gustaba saber cómo lo hacían. A veces, cuando investigaba, comprobaba
+que muchas de estas {}``hazañas'' era imposibles.
+
+Yo nunca entré a la NASA, nunca accedí a ningún sistema bancario ni
+robé programas confidenciales. Aunque este es más un reflejo de mis
+escasas habilidades. Un \emph{hacker} experto me diría \emph{lamer}
+o \emph{noob}, términos que se usaban peyorativamente para aquellos
+principiantes o inexpertos.
+
+Después de estudiar ingeniería en sistemas computacionales caí en
+cuenta de que mi perspectiva laboral no lucía ni remotamente interesante
+en comparación de los proyectos que emprendía por gusto. Después de
+titularme comencé a dar clases de informática y a estudiar la licenciatura
+en ciencias de la comunicación. El choque con campos tan diferentes
+a la ingeniería me reveló de que hay una gran distancia cultural entre
+ambos. Este es quizá uno de los motivos por los cuales no existen
+muchos estudios desde las ciencias sociales sobre este tema. 
+
+Mientras que la ciencia computacional se enfoca a los algoritmos,
+los números, los procesos secuenciales y los sistemas de información,
+las ciencias sociales se preocupan por el individuo y los fenómenos
+que involucran al ser humano de manera central. El \emph{hacking}
+es un fenómeno que parece abarcar ambos mundos.
+
+La participación que tuve dentro del \emph{underground} presenta algunas
+oportunidades, pero también muchos riesgos. Por una parte, puedo tener
+un panorama más {}``aterrizado'', más cercano a la cotidianeidad
+de algunos \emph{hackers}. Compartir sus referentes, ideas y discursos
+facilita acceder a ellos, compartir un lenguaje y generar empatía.
+Por otra parte, corro el riesgo de estar ciegamente de acuerdo con
+sus posturas o incluso en desacuerdo por opiniones personales. Con
+el tiempo comprendí lo internalizado que tengo ideas \emph{hacker}
+y cómo a veces puedo llegar a aceptarlas sin cuestionarlas. En ocasiones
+son tan obvias que ni siquiera las veo. Liberarme de esta ceguera
+ha sido un proceso lento pero indispensable para emprender este trabajo.
+
+La relevacia del tema desde una perspectiva social y cultural fue
+evidente para mí después de la lectura de dos libros en particular:
+\emph{Hackers, heroes of the computer revolution} de Steven Levy y
+\emph{The hacker ethic and the spirit of the information age} de Pekka
+Himanen, los cuales se mencionarán a mayor profundidad más adelante.
+Quedé sorprendido por lo mucho que había subestimado la importancia
+de los \emph{hackers} y comencé a obtener una perspectiva histórica
+sobre el fenómeno. También me ayudaron mucho a comprenderme a mí mismo,
+en ocasiones sentía que los autores me conocían personalmente. Entendí
+cómo las humanidades y ciencias sociales pueden crear modelos explicativos.
+
+La maestría de estudios socioculturales me pareció la oportunidad
+ideal para abordar el tema, enfocándome a la situación específica
+que se encuentra en la frontera en la cual radico. No tanto desde
+una perspectiva tecnológica, si no desde una perspectiva cultural.
+Esta es mi manera de revisitar a los \emph{hackers} y no frustrarme
+tanto por mis escasas habilidades técnicas. Quizá también es una manera
+de llenar el hueco o el vacío de información que yo veía que existía
+cuando me sentía \emph{hacker}. Un poco para reducir la distancia
+entre ambos mundos.
+
+
+\subsection{Estudios previos}
+
+Abundan los libros sobre el \emph{hacking }desde un punto de vista
+puramente técnico. En ellos, el término se utiliza de formas tan diversas
+que al revisarlos es difícil obtener una idea clara de su significado.
+Por otra parte, no existen demasiados estudios sobre\emph{ }estas
+actividades desde una perspectiva social o cultural. A pesar de esto,
+creo que las aproximaciones que existen sientan los precedentes necesarios
+para emprender una nueva investigación.
+
+El trabajo seminal, citado por todos los investigadores posteriores,
+es el libro de periodismo cultural \emph{Hackers, heroes of the computer
+revolution} \citeyearpar{Levy1984} de Steven Levy. Se trata del primer
+trabajo descriptivo que intenta comprender al \emph{hacker} desde
+su propia lógica. El autor rastrea los orígenes de los \emph{hackers}
+a un club de ferromodelismo dentro del \emph{Massachussets Institute
+of Technology} (MIT) en los años cincuenta. En dicho club había estudiantes
+expertos en crear circuitería para que los trenes funcionaran. Las
+soluciones ingeniosas a problemas de este tipo eran llamados \emph{hacks}
+dentro del club, y los miembros con más \emph{hacks} eran llamados\emph{
+hackers}.
+
+Algunos \emph{hackers} migraron al departamento de inteligencia artificial
+de la misma universidad, portando el término consigo. Esta pequeña
+comunidad comenzó a diferenciarse de otros debido a ciertas actitudes
+y valores particulares. Levy describe la ética compartida que se formó
+en ese primer momento y la enunció en seis puntos:
+\begin{quotation}
+1) Toda la información debe ser de libre acceso.
+
+2) El acceso a los ordenadores (y a todo aquello que nos pueda enseñar
+algo acerca de cómo funciona el mundo) debe ser ilimitado y total.
+
+3) Desconfía de la autoridad. Promueve la descentralización.
+
+4) Un \emph{hacker} debe ser valorado por sus \textquotedblleft{}hacks\textquotedblright{}.
+Es decir, por la calidad de sus diseños y programas, no por criterios
+falsos y postizos como las titulaciones académicas, la raza o la posición
+social. 
+
+5) Un \emph{hacker} puede crear arte y belleza con un ordenador.
+
+6) Los ordenadores pueden mejorar nuestras vidas. \citep[pág. 33]{Levy1984,Contreras2004}
+\end{quotation}
+En base a este planteamiento, Levy busca describir y entender a varios
+\emph{hackers} específicos en sus situaciones particulares. El autor
+hace hincapíe en que no busca a los nombres más famosos, si no los
+\emph{hackers} promedio. Inicia con los primeros grupos en el MIT,
+para posteriormente hablar de los \emph{hackers} de hardware, esos
+que deseaban crear y modificar sus propias computadoras con componentes
+electrónicos. También visita el período del nacimiento de la industria
+de los videojuegos. Describe cómo estuvo poblada de \emph{hackers}
+en constante tensión con sus superiores debido a su manera de trabajo
+tan poco convencional: Sin horarios fijos, sin calendarios y guiados
+por sus intereses personales.
+
+El libro termina con un epílogo titulado {}``El último de los verdaderos
+\emph{hackers}'' refiriéndose a Richard Stallman, principal impulsor
+del software libre. Este tipo de software no tiene propietarios y
+cualquier usuario puede modificarlo. La distribución del mismo no
+está restringida comercialmente y es gratuita. Los pioneros del MIT
+se quejaban de los jóvenes adolescentes que cometían crímenes informáticos
+y se autodenominaban \emph{hackers}.
+
+Con este accidentado panorama inicial se introdujo a los \emph{hackers}
+como una cultura diferenciada. Steven Levy aclara que no intenta hacer
+una historia formal sobre los orígenes, únicamente retratar varias
+viñetas con la esperanza de esclarecer las motivaciones y forma de
+pensar de los \emph{hackers}. Si tratamos de analizar el libro desde
+una perspectiva histórica o de estudios culturales, ciertamente hay
+deficiencias y sesgos que saltan a la vista. Pero a lo largo de estos
+años sirvió como detonador del interés que guía investigaciones como
+la que me encuentro realizando en estos momentos.
+
+Ya para \citeyear{Meyer1989}, Gordon Meyer publicó una tesis de maestría
+para obtener el grado de criminólogo titulada \emph{The social organization
+of the computer underground}. Este punto de vista enfatiza el análisis
+y comprensión de las actividades criminales y transgresoras. Los \emph{hackers}
+fueron categorizados como un {}``grupo desviado'' (\emph{deviant
+groups}). Meyer utilizó el método etnográfico para analizar \emph{Bulletin
+Board Systems} (BBS), buzones de voz, correos electrónicos y conversaciones
+telefónicas con los informantes.
+
+Meyer definió el \emph{underground} informático como el espacio de
+interacción de tres actores principales. Cada uno de ellos tiene alguna
+de las siguientes actividades diferenciadas: 
+\begin{APAitemize}
+\item \emph{Hacking}: Se refiere a los actos y métodos utilizados para obtener
+acceso no autorizado a un sistema computacional.
+\item \emph{Phreaking}: Abarca las técnicas para evitar los mecanismos de
+cobro de las compañías telefónicas y utilizar los servicios sin costo.
+\item Piratería: Consiste en la copia y distribución no autorizada de software
+con copyright.
+\end{APAitemize}
+Para Meyer, a pesar de que los individuos que realizan estas actividades
+interactúan dentro del \emph{underground} informático, existe división
+e incomprensión entre ellos. La tesis afirma que su manera de trabajo
+se da mediante {}``redes'' de colaboración. Coexisten, comparten
+recursos e información pero funcionan por separado. Mientras que las
+actividades de \emph{hacking} y \emph{phreaking} se realizan individualmente,
+los participantes del \emph{underground} informático
+\begin{quotation}
+se asocian unos con otros para discutir asuntos de interés común,
+como la práctica de técnicas, noticias, y resolución de problemas.
+Para facilitar este intercambio de información, han establecido una
+sofisticada red tecnológica {[}...{]} La misma estructura que permite
+la asociación mutua entre los participantes del \emph{underground}
+informático también invita a algunos a formar relaciones de trabajo,
+de tal manera que interactúan como iguales en la participación de
+las actividades del \emph{undeground} \citep[págs. 65-66]{Meyer1989}.%
+\footnote{\emph{Computer underground participants do associate with one another
+in order to discuss matters of common interest, such as performance
+techniques, news, and problem solving. To facilitate this informational
+exchange, they have established a technologically sophisticated network
+}{[}...{]}\emph{ The very structure that permits mutual association
+among CU }{[}\emph{computer underground}{]}\emph{ participants also
+encourages some to form working relation- ships, thus acting as peers
+by mutually participating in CU activities.} (Nota: Las traducciones
+que aparecen a lo largo de este texto son mías.)%
+}
+\end{quotation}
+Quisiera llamar la atención a un brevísimo punto que en particular
+me parece relevante. Meyer no le dio mucha importancia, se salía de
+su objeto de estudio, supongo, y la envió a una nota al pie:
+\begin{quotation}
+El equipo básico {[}del \emph{hacker}{]} consiste de un módem, una
+línea telefónica y una computadora -- todos ellos dispositivos que
+se encuentran disponibles a través de medios legítimos. Lo que distingue
+a los \emph{hackers} de otros usuarios es la forma en que se utiliza
+este equipo y el conocimiento que para ello se requiere.\citep[pág 34]{Meyer1989}%
+\footnote{\emph{The basic equipment consists of a modem, phone line, and a computer
+-- all items that are available through legitimate channels. It is
+the way the equipment is used, and the associated knowledge that is
+required, that distinguishes hackers from other computer users.}%
+}
+\end{quotation}
+La tesis logra describir el funcionamiento social del \emph{underground}.
+Es uno de los primeros trabajos en complejizar este tema, revelando
+que tales organizaciones son más sofisticadas de lo que anteriormente
+se pensaba. Meyer encuentra que las prácticas \emph{hacker} no siempre
+son criminales. Además, las amenazas y peligros sospechados por las
+agencias de seguridad han sido exageradas por la incomprensión del
+tema.
+
+Un artículo de \citeyear{MEYER1990} continuaría el trabajo en esta
+dirección: \emph{The baudy world of the byte bandit: A postmodernist
+interpretation of the computer underground} de Gordon Meyer y Jim
+Thomas. En él se busca un análisis más cultural que criminológico,
+utilizando también el método etnográfico. El texto busca distanciar
+al \emph{hacking} del crimen, enfatizando que la mayor parte de los
+\emph{hackers} {}``evita destruir información o dañar el sistema
+deliberadamente''. La destrucción de datos sería contraproducente
+para los objetivos del \emph{hacker}: Alertaría al administrador del
+sistema y probablemente cerraría el agujero por donde el intruso pudo
+entrar. Las posibilidades de exploración terminarían en ese mismo
+momento.
+
+La insistencia en esta diferenciación puede deberse a que durante
+los años ochenta el significado de la palabra \emph{hacker} cambiaba.
+Cada vez menos era utilizada como sinónimo de {}``programador experto''
+(\citeauthor{Levy1984}) y cada vez más como {}``criminal informático''.
+Las agencias de seguridad de Estados Unidos y Europa tenían en la
+mira a los \emph{hackers} como individuos sospechosos y delincuentes
+en potencia.
+
+Es por ello que a finales de los ochenta se realizaron una serie de
+redadas donde se confiscó equipo y varios individuos fueron arrestados.
+Un recuento parcial de estos sucesos puede encontrarse en \emph{The
+hacker crackdown: Law and disorder on the electronic frontier} \citeyearpar{Sterling1992}
+de Bruce Sterling. Se trata de un recuento periodístico, aunque resulta
+importante para comprender la representación de los \emph{hackers}
+en ese momento en específico.
+
+En la narrativa se detalla, entre otras cosas, los conflictos entre
+agencias de seguridad y grupos de \emph{hackers} como \emph{Legion
+of Doom} a finales de los ochenta. Especialmente relevante me parecen
+los recuentos de la llama \emph{Operation Sundevil} una serie de operativos
+coordinados para arrestar \emph{hackers} y confiscar equipo:
+\begin{quotation}
+Sundevil aparenta haber sido una total sorpresa táctica {[}...{]}
+ejecutada precisamente y totalmente arrolladora. Al menos cuarenta
+{}``computadoras'' fueron confiscadas durante el 7, 8 y 9 de mayo
+de 1990 en Cincinnati, Detroit, Los Ángeles, Miami, Newark, Phoenix,
+Tucson, Richmond, San Diego, San José, Pittsburgh y San Francisco.
+Algunas ciudades vieron múltiples redadas, como las cinco redadas
+en los alrededores de Nueva York. En Plano, Texas {[}...{]} hubo cuatro
+confiscaciones de computadoras. Chicago, siempre en la delantera,
+tuvo su propia redada \emph{Sundevil}, llevada a cabo por los agentes
+del servicio secreto Timothy Foley y Barbara Golden. \citep[págs. 150-151]{Sterling1992}%
+\footnote{\emph{Sundevil seems to have been a complete tactical surprise {[}...{]}
+precisely timed and utterly overwhelming. At least forty \textquotedbl{}computers\textquotedbl{}
+were seized during May 7, 8 and 9, 1990, in Cincinnati, Detroit, Los
+Angeles, Miami, Newark, Phoenix, Tucson, Richmond, San Diego, San
+Jose, Pittsburgh and San Francisco. Some cities saw multiple raids,
+such as the five separate raids in the New York City environs. Plano,
+Texas {[}...{]} saw four computer seizures. Chicago, ever in the forefront,
+saw its own local Sundevil raid, briskly carried out by Secret Service
+agents Timothy Foley and Barbara Golden.}%
+}
+\end{quotation}
+Sterling comenta sobre el origen del término {}``ciberespacio''
+para referirse a las redes de comunicación actuales. El término fue
+utilizado por primera vez por el novelista William Gibson en\emph{
+Neuromancer} \citeyearpar{Gibson1984}. En el contexto de la novela,
+se refiere a un mundo virtual al cual los seres humanos podían acceder
+a través de una interfase que se comunica directamente con el cerebro.
+John Perry Barlow, un poeta y ensayista involucrado en el underground
+informático, quien afirmó que las redes digitales se {}``habían convertido
+en un \emph{lugar}, el ciberespacio, que requería una nueva serie
+de metáforas, una nueva serie de reglas y comportamientos.'' \citep[pág. 236]{Sterling1992}%
+\footnote{{[}...{]} \emph{it had become a place, cyberspace, which demanded
+a new set of metaphors, a new set of rules and behaviors.}%
+}
+
+Debido a la avalancha de información que provenía del periodismo,
+el cine y la literatura, quienes no necesariamente se encontraban
+al tanto de la vida cotidiana de los \emph{hackers} y sus verdaderas
+motivaciones, podemos ver que los autores de este periodo buscaban
+obtener una visión desde dentro de esta cultura. En ciertos momentos
+llegan a empatizar tanto con el movimiento \emph{hacker} que parecen
+adoptar una postura de defensa. Sin embargo, creo que debe contextualizarse
+esta actitud: Los discursos desde dentro eran desconocidos, un misterio
+casi total.
+
+El artículo \emph{Computer hackers: Rebels with a cause} \citeyearpar{Rosteck1994}
+de Tanja S. Rosteck posee esta misma actitud: {}``Ahora los hackers
+son procesados legalmente desproporcionadamente en comparación a la
+amenaza que representan'' \citep{Rosteck1994}. %
+\footnote{\emph{Hackers are now being legally persecuted on a scale disproportional
+to the actual threat they pose.}%
+}
+
+El autor nota que los pocos estudios que existían en ese entonces
+lo abordan desde dos perspectivas: Desde la criminológica y desde
+las libertades civiles, ya que en las redadas contra \emph{hackers}
+se les ignoraron muchos de sus derechos constitucionales, como puede
+leerse en el libro de \citep{Sterling1992}. Rosteck propone comprender
+al \emph{hacker} como un colectivo revolucionario bajo la pestectiva
+de Stewart, Smith y Denton (1984) sobre los movimientos sociales.
+Estos autores describen los movimientos sociales mediante seis características:
+\begin{APAenumerate}
+\item Tienen al menos una organización mínima.
+\item Es una colectividad no institucionalizada.
+\item Se opone o propone un cambio en las normas y valores sociales.
+\item Se enfrenta a un orden establecido.
+\item Debe tener un alcance siginificativamente amplio.
+\item La persuación es su esencia. 
+\end{APAenumerate}
+Para encontrarles en su análisis, Rostek utiliza un método etnográfico.
+Sus datos provienen de \emph{e-zines} publicadas por \emph{hackers},
+disponibles libremente. El autor tomó este camino debido a la dificultad
+metodológica que presentaba el obtener acceso a BBS y foros \emph{hacker.}
+Normalmente tenían acceso restringido y utilizaban algún tipo de cuestionario
+para comprobar las habilidades técnicas y la valía de los nuevos miembros.
+
+En restrospectiva, y a la luz de trabajos posteriores, \emph{Computer
+hackers, rebels with a cause} posee varios puntos flacos. Para empezar,
+la definición de movimiento social utilizada es muy simplista y la
+generalización es enorme. Por otra parte, el sólo revisar las publicaciones
+hechas por los mismos \emph{hackers} implica un sesgo en la investigación:
+Son discursos hacia el exterior. Aunque las \emph{e-zines} estén dirigidas
+también hacia otros miembros del \emph{underground }informático, siguen
+siendo discursos que podrían estar basados en el {}``deber ser''
+y no en la práctica cotidiana de los \emph{hackers}. Por otra parte,
+excluye la posibilidad de contrastar práctica con discurso.
+
+El camino tomado por el estudio es comprensible en vista de las dificultades
+metodológicas, pero tomar reflexionar en torno a ello dentro del texto
+hubiera sido benéfico. Hay que comprender estas carencias en contexto:
+La falta estudios similares convierte a este trabajo en una de las
+primeras afirmaciones de que los \emph{hackers} son una colectividad
+organizada y no sólo individuos aislados trabajando desde el sótano
+en sus computadoras. Rosteck los ve como {}``una cultura revolucionaria''
+que ha sido estigmatizada por los medios. Los matices vendrán en estudios
+posteriores.
+
+Dorothy Denning también amplió el panorama sobre los \emph{hackers}
+llegamdo más allá del discurso. Su trabajo \emph{Concerning hackers
+who break into computer systems \citep{Denning}} es un buen ejemplo
+de ello. La autora relata que en sus aproximaciones iniciales tenía
+la esperanza de desmotivar a los \emph{hackers} en sus actividades
+criminales. Sin embargo, sus hallazgos revelaron que se encontraban
+sumamente interesados en que la seguridad informática y la privacidad
+de la información aumentara.
+
+{}``Mis descubrimientos iniciales sugieren que los \emph{hackers}
+son aprendices y exploradores que prefieren ayudar antes de causar
+daño, y que tienen altos estándares de comportamiento.'' \citep[pág. 137]{Denning}
+Es importante notar que, en la delimitación de su estudio, tanto Denning
+como Rosteck dejan fuera aquellos \emph{hackers} que se involucran
+en actividades ilegales pero que, en efecto, existen \citep{Sterling1992}.
+
+En estos trabajos puede verse un intento de rescate de la visión {}``desde
+dentro'' y la oposición a un discurso criminalizante. Debemos recordar
+que durante los años ochenta y los noventa, la palabra\emph{ hacker}
+poseía una asociación inmediata al crimen \citep{Thomas2002}. Los
+estudios de este periodo llegaron a minimizar el aspecto criminal
+y lo dejaron fuera de sus objetos de estudio. Es posible que estoy
+haya tenido la intención de cambiar la percepción pública sobre los
+\emph{hackers} y contrarrestar los efectos de los medios repitiendo
+la representación negativa constantemente.
+
+El libro filosófico de Pekka Himanen, La ética del hacker y el espíritu
+de la era de la información \citeyearpar{Himanen2001}, marcaría un
+parteaguas en la forma de comprender al \emph{hacker}. El autor recupera
+el libro La ética protestante y el espíritu del capitalismo, donde
+Max Weber afirma que uno de los principios del capitalismo es el sentimiento
+personal de que el trabajo es un deber.
+
+Weber afirmó que los valores promovidos por la religión protestante
+favorecían el desarrollo del capitalismo \citep{Ritzer2005}. Mientras
+que en otras religiones, como la católica, el trabajo es una carga
+y el cielo es el descanso eterno, en el protestantismo el cielo es
+la recompensa por un trabajo bien hecho \citep{Himanen2001}. De esta
+forma, el trabajo duro es el medio para la salvación eterna.
+
+Para el \emph{hacker} esto es diferente. Su ética de trabajo es más
+parecida a las éticas preprotestantes y esto tiene repercusiones en
+su utilización del tiempo y en sus motivaciones económicas. Para hacer
+este tipo de afirmaciones, Himanen observa a los \emph{hackers} más
+visibles y representativos de la ética del \emph{hacker} original
+propuesta por Levy. Ignora por completo a aquellos intrusos informáticos,
+\emph{phreakers}, piratas de software y prácticamente todo el \emph{underground}
+informático. Quedan los grandes nombres: Eric Raymond, Linus Torvalds,
+Steve Wozniak, Richard Stallman. Todos ellos programadores convertidos
+en figuras públicas sin antecedentes penales.
+
+Linus Torvals, por ejemplo, desarrolló el núcleo que sirve como base
+para el sistema operativo llamado GNU/Linux. A diferencia de empresas
+que contratan a cientos de programadores bien pagados para que trabajen
+en ello, Linus lo desarrolló en su tiempo libre. Cada cierto tiempo
+mostraba su trabajo en Internet para aceptar sugerencias de cualquier
+persona interesada en mejorar el sistema. Después de sus ocho horas
+laborales, sigue trabajando en Linux sin recompensa monetaria alguna:
+\begin{quotation}
+Los \emph{hackers} optimizan el tiempo a fin de que haya más espacio
+para el ocio: el modo de pensar de Torvalds es que, en medio del trabajo
+duro y serio que supuso el desarrollo de Linux, siempre debe haber
+tiempo para ir a la piscina o llevar a cabo algunos experimentos de
+programación que no responden a metas inmediatas. La misma actitud
+ha sido compartida por los hackers desde el MIT de los años sesenta.
+En la versión \emph{hacker} del tiempo flexible, las diferentes áreas
+de la vida, como el trabajo, la familia, los amigos, las aficiones
+y demás, se combinan con mucha menor rigidez, de modo que el trabajo
+no siempre se halla en el centro del mapa. \citep[pág. 51]{Himanen2001}
+\end{quotation}
+En cuanto a la motivación económica, resulta sorprendente el modelo
+de desarrollo de muchos de estos proyectos de software. En un modelo
+corporativo tradicional, normalmente pueden costar millones de dólares,
+pero en el modelo \emph{hacker} son emprendidos por aficionados sin
+sueldo. Himanen, al respecto, afirma:
+\begin{quotation}
+En la comunidad \emph{hacker} las motivaciones sociales desempeñan
+un papel importante, pero de un modo muy distinto. En realidad, no
+es posible comprender por qué algunos \emph{hackers} dedican su tiempo
+libre a desarrollar programas que acaban distribuyendo gratuitamente
+a los demás, sin percibir los fuertes motivos sociales que tienen
+para hacerlo. {[}Eric{]} Raymond afirma en este sentido que estos\emph{
+hackers} se hallan motivados por la fuerza que tiene para ellos el
+\emph{reconocimiento de sus iguales}. {[}...{]} La diferencia que
+les distingue decisivamente de la ética protestante es que para los
+\emph{hackers} reviste especial importancia el hecho de que el reconocimiento
+de sus iguales no es un sustituto de la pasión, sino que debe producirse
+como resultado de la acción apasionada, de la creación de algo que
+sea desde un punto de vista social valioso para esta comunidad creativa.
+Bajo la ética protestante sucede, a menudo, justo lo contrario: las
+motivaciones sociales sirven para distraer la atención de la idea
+de que el trabajo mismo comporta la realización de una pasión. \citep[pág. 71]{Himanen2001}
+\end{quotation}
+La visión de Himanen resultó tan reveladora que reivindicó la imagen
+de los \emph{hackers} a partir de su publicación. El término adquiría
+de nueva cuenta connotación de programador altruista que tuvo en sus
+inicios. Aún así, es importante hacer notar que, como ya mencioné,
+esta imagen fue formada analizando casi exclusivamente los casos de
+programadores de software libre. Una operacionalización de esta visión
+puede encontrar conflictos con la práctica, donde muchos \emph{hackers}
+no se encuentran apegados a estos ideales.
+
+Otro libro igual de importante se publicó poco tiempo después. Por
+la fecha de realización y las referencias del texto, puede verse que
+fue escrito antes de la publicación de La ética del hacker y no incorpora
+las ideas de Himanen. Se trata de \emph{Hacker culture }\citeyearpar{Thomas2002}de
+Douglas Thomas, una colección de ensayos desde los estudios culturales.
+Los tópicos abordados se dividen en tres: 
+\begin{APAitemize}
+\item La evolución del \emph{hacker}: Thomas rastrea los orígenes del hacking
+desde los sesenta hasta los noventa. Su aproximación es mucho más
+crítica que la de Levy, y afirma que este fenómeno debe comprenderse
+como un derivado de la guerra fría. Durante los sesenta, principalmente,
+el gobierno de Estados Unidos tenía un fuerte interés en el desarrollo
+de tecnologías de la información. La financiación de las universidades,
+particularmente en áreas de la ciencia computacional, tenía el objetivo
+de generar este tipo de herramientas para su uso en la guerra. En
+este periodo aparecieron las primeras computadoras en las universidades
+y, gracias a esto, la cultura \emph{hacker}.
+\item La representación del \emph{hacker}: Revisa las representaciones mediaticas
+y la manera en como los \emph{hackers} se presentan ante el público
+en general a través de ejemplos. Incluye una revisión minuciosa de
+elementos simbólicos de la película \emph{Hackers }\citeyearpar{Softley1995}.
+\item La ley del \emph{hacking}: Analiza cómo se construye al hacker jurídicamente,
+especialmente a través del controvertido caso de Kevin Mitnick, capurado
+durante los noventa. Su juicio sentó precedentes y se caracteriza
+por las irregularidades en contra del \emph{hacker} y en que su proceso
+fue revelador para comprender la representación social del \emph{hacker}.
+\end{APAitemize}
+En \citeyear{Mendoza2002} se publicó el artículo Hackers: De piratas
+a defensores del software libre de Jorge Lizama. El artículo ya retoma
+la perspectiva del \emph{hacker} propuesta por Himanen y en una de
+sus secciones contextualiza el tema en el caso mexicano. Especula
+acerca de la apropación tecnológica que hacen los \emph{hackers} de
+la tecnología y como podría beneficiar al país. Critica especialmente
+la iniciativa e-México, donde el gobierno pretendía instalar un gran
+número de computadoras con el sistema operativo Microsoft Windows
+en diferentes comunidades. Si el sistema operativo fuera de software
+libre, como Linux, el costo se reduciría drásticamente:
+\begin{quotation}
+Sabemos que México en materia de inversiones en tecnologías de la
+información ocupa un lugar poco destacado en el contexto de América
+Latina (debajo de Brasil, Chile y Argentina) y muy rezagado en relación
+con el contexto internacional. Hoy en día, con la llegada del programa
+e-México existe la posibilidad de cambiar al menos una parte del panorama
+tecnológico del país. Sin embargo, desde mi punto de vista para que
+este escenario no rinda frutos sólo en el apartado de las estadísticas
+y los logros sexenales sino también en rubro de lo social, es necesario
+recurrir a algunos de los puntos defendidos por los \emph{hackers},
+a los que entiendo como impulsores de proyectos de colaboración y
+beneficios colectivos al interior de la Internet y no como piratas
+de las redes. \citep[pág. 105]{Mendoza2002}
+\end{quotation}
+Lizama retomaría el tema en su tesis doctoral Hackers en el contexto
+de la sociedad de la información \citeyearpar{LizamaMendoza2005}.
+Resulta relevante para esta investigación por ser la única tesis que
+he encontrado sobre el tema en latinoamérica. El enfoque es a partir
+de la construcción social de la tecnología, una perspectiva crítica
+que afirma que la tecnología no evoluciona linealmente. La tecnología
+se crea a partir del {}``cierre'' que se le da a problemas que afectan
+a diferentes {}``grupos relevantes'' afectados por el nuevo artefacto
+tecnológico \citep{Bijker1987}. Desde este punto de vista, se deja
+atrás la noción de que cada nuevo artefacto es un avance automático
+con respecto al anterior, y que todos los inventos o innovaciones
+que no funcionaron simplemente no eran óptimos. Hay razones sociales
+que hicieron que ese artefacto fracasara.
+
+La práctica \emph{hacker}, entonces, se caracteriza por una {}``flexibilidad
+interpretativa'' que cuestiona los artefactos tecnológicos y logra
+modificarlos. La combinación de esto junto con la {}``ética \emph{hacker}''
+puede ayudar al análisis de los \emph{hackers}. Lizama se limitó a
+los desarrolladores de software libre y a los \emph{hacktivistas}
+(activistas de Internet que utilizan prácticas \emph{hacker} como
+medio de protesta). El autor afirma: {}``Los \emph{hackers}, mediante
+la producción de software libre y la defensa de una internet donde
+impere el libre acceso y distribución de la información, han generado
+un modelo de uso social de la tecnología {[}...{]} que impulsa directamente
+el desarrollo de la cultura de la información.'' \citep[ págs. 194-195]{LizamaMendoza2005}
+
+Un libro filosófico tomaría una postura sumamente radical en cuanto
+a la reflexión sobre el tema. \emph{A hacker manifesto} \citeyearpar{Wark2004}
+de McKenzie Wark toma una perspectiva totalmente marxista para abordar
+el fenómeno. Para Wark el conflicto de los \emph{hackers} es una lucha
+de clases y la disputa se encuentra en el mundo de la propiedad intelectual.
+El mundo actual genera abstracciones (información, objetos inmateriales)
+y los propietarios de éstas son equiparables a los burgueses que describía
+Marx. La clase \emph{hacker} es la que posee las herramientas para
+crear una nueva revolución y liberar la información.
+
+El libro de Wark se encuentra totalmente en el mundo de las ideas.
+No menciona un sólo nombre de \emph{hackers} y tampoco proporciona
+evidencia empírica. Yo cuestionaría la insistencia de intentar hablar
+en nombre de todos los\emph{ hackers} y no retomar sus discursos y
+prácticas. Se trata más de una reinvención del término \emph{hacker},
+basándose en el texto de Himanen y otros de Marx, no tanto de estudiar
+la realidad observable.
+
+Muy diferente es Me llamo Kohfam \citeyearpar{Contreras2004} de Pau
+Contreras. Se trata de un estudio antropológico sobre la identidad
+de \emph{hackers} de televisión digital en foros españoles. En estos
+foros se discutía cómo {}``piratear'' tarjetas electrónicas para
+poder ver gratis la televisión de paga. Los individuos involucrados
+revelaban sus técnicas sin fines de lucro.
+
+La pregunta de investigación de Contreras fue dirigida hacia las motivaciones
+para esto. Utilizó el método ciberetnográfico y creó tres identidades
+virtuales mediante las cuales participó en los foros y obtuvo ayuda
+e interacción con diversos \emph{hackers}. El principal informante
+y centro del estudio es uno de seudónimo Kohfam. A través de él se
+obtuvieron los elementos suficientes para obtener conclusiones sobre
+la identidad \emph{hacker}, al menos en ese contexto:
+\begin{quotation}
+Para la identidad física a la que Kohfam pertenece, las prácticas
+\emph{hacker} son mucho más que una simple actividad lúdica realizada
+de manera esporádica. Kohfam ha sido uno de los maestros venerables
+de la comunidad, un hacker respetado, capaz de diseñar ingenios técnicos
+que han mantenido en jaque a grandes empresas de TV digital y que
+siempre ha compartido sus hallazgos con el resto del grupo. {[}...{]}
+La identidad de Kohfam tiene una dimensión social, construida en el
+juego de relaciones necesarias para determinar su nivel de prestigio
+y su estatus dentro del grupo. \citeyearpar[pág. 139]{Contreras2004}
+\end{quotation}
+Un artículo reflexiona sobre el rol de los \emph{hackers} en las llamadas
+{}``sociedades del conocimiento'': De símbolos y hackers: guías
+en la sociedad del conocimiento \citeyearpar{Seguel2005} de Andrés
+Seguel.
+
+Para terminar este recuento quisiera llamar la atención sobre el trabajo
+de Gabriella Coleman, una antropóloga radicada en Nueva York. Ella
+ha tomado el tema de los \emph{hackers} y le ha dado continuidad durante
+la mayor parte de la década pasada hasta el día de hoy. Su trabajo
+se enfoca principalmente en la ética del \emph{hacker} practicada
+a través de la programación y el \emph{hacktivismo}.
+
+En \emph{Hacker practice} \citeyearpar{Coleman2008}, Coleman encuentra
+elementos liberales en la práctica \emph{hacker}. En\emph{ Code is
+speech} \citeyearpar{Coleman2009} compara el código fuente, es decir,
+las instrucciones utilizadas por los programadores para que las computadoras
+hagan tareas determinadas, con un texto escrito. De esta forma, el
+código podría estar clasificado dentro de las mismas categorías que
+los libros, revistas, periódicos y demás. Esto implicaría también
+la protección de la libertad de expresión, como muchas otras manifestaciones
+humanas. Importante resulta también el texto \emph{The hacker conference}
+\citeyearpar{On2010} donde la investigadora se acerca a las conferencias
+\emph{hacker} etnográficamente, buscando interpretar los significados
+y la interacción cara a cara, contrastada con la actividad en línea.
+Su trabajo es el más reciente y consistente de los autores revisados
+en este apartado.
+
+
+\subsubsection{En palabra de los \emph{hackers}}
+
+Desde la época del \emph{Homebrew computer club,} a finales de los
+años sesenta, los \emph{hackers} han publicado periodicamente panfletos,
+ensayos y manuales electrónicos. Otros han logrado publicar libros
+en editoriales importantes. La mayor parte de estas publicaciones
+son puramente técnicas y sólo en momentos brevísimos nos dejan entrever
+explícitamente un poco acerca de su cultura y forma de pensar. Generalmente
+en los prólogos, introducciones o en los epílogos.
+
+Aunque estos pequeños textos fragmentarios pueden ser útiles, creo
+que se encuentran tan dispersos y poco sistematizados que es conveniente
+dejarlos de lado por el momento. Podrían ser material para interesantes
+estudios posteriores que serían interesantísimos: El estudio de los
+libros técnicos desde una perspectiva cultural. No tanto como fuentes,
+si no como objeto de estudio.
+
+Entre esta avalancha de publicaciones, hay algunas que no pueden ser
+ignoradas y son pertinentes a esta investigación. Son aquellas que
+se centran más en los aspectos ideológicos o filosóficos del \emph{hacking}.
+Varios autores han reflexionado sobre el \emph{hacking }desde dentro
+de la misma cultura. En ocasiones con la aspiración de aclarar algún
+punto en la opinión pública o incluso para expresar su postura personal
+frente a otros \emph{hackers}.
+
+He visto que algunos autores de las ciencias sociales y antropología
+se basan en estos textos para formular sus definiciones sobre el \emph{hacking},
+o para tomarlos como fuentes para armar sus conceptos. Lo hacen de
+una manera indistinta, sin mucha diferenciación entre el libro publicado
+por un \emph{hacker} y aquel que proviene desde la academia \citep{LizamaMendoza2005,Rosteck1994}.
+Aunque no me parece una aproximación incorrecta por que en ocasiones
+es difícil encontrar la diferencia, por mi parte he decidido no tomar
+este camino.
+
+El motivo es que, cuando era adolescente y me encontraba dentro del
+\emph{underground}, sí que conocia esos textos. En ocasiones funcionaban
+como base para justificar mi pensamiento y el por qué {}``hackeaba''.
+Durante el transcurso de la maestría mis compañeros de clase y profesores
+con frecuencia me pedían que explicara términos que yo daba por sentado:
+\emph{C}r\emph{acking, black hat}, \emph{white hat}, \emph{keylogger,
+demoscene} e ingeniería social. Me hicieron ver que esas definiciones
+surgieron al interior de la cultura que intento estudiar.
+
+Como ya mencioné, el proceso de desapegarme y repensar todos estos
+conceptos no ha sido fácil. Consideré como ejercicio saludable el
+salir de los {}``discursos nativos'' y crear mis conceptos únicamente
+desde la academia. Quizá en un momento fue necesario que los investigadores
+retomaran la perspectiva {}``desde dentro'' debido a la carencia
+de trabajos al respecto, pero hoy hay el suficiente trabajo teórico
+como para trabajar con los \emph{hackers} desde conceptos científicos.
+
+Aún así, no es posible ignorar ensayos y conceptos importantes escritos
+por los mismos \emph{hackers}. Con frecuencia los mencionan en sus
+discursos y fundan su manera de pensar. No necesariamente todos los
+\emph{hackers} se encuentran de acuerdo con ellos, pero los referentes
+se encuentran ahí y su peso es grande. Ignorarlos sería aproximarse
+a la cultura \emph{hacker} con un solo ojo. Así que hagamos una breve
+revisión de ellos para tomarlos en cuenta.
+
+Richard Stallman es un \emph{hacker} en el sentido tradicional del
+término: Un programador \citep{Levy1984,Himanen2001}. Uno de sus
+proyectos durante los años ochenta fue la creación del llamado {}``software
+libre'', es decir, software que no puede tener propietarios y cuya
+distribución no se restringe intelectual ni comercialmente. Para dar
+a conocer su postura tuvo que justificarse en una serie de ensayos,
+que culminarían en la creación de una organización no lucrativa llamada
+\emph{Free Software Foundation} (FSF).
+
+Todo software que utilizamos tiene una licencia de uso. Con frecuencia
+se le denomina \emph{End User Agreement License} (EULA) y normalmente
+se despliega al momento de la instalación, para lo cual debemos dar
+click en un botón que dice {}``Aceptar''. Si no aceptamos esta licencia,
+no podemos instalar el software. Richard Stallman creó una licencia
+llamada \emph{GNU Public License} que implica las siguientes libertades
+para el usuario:
+\begin{quotation}
+{*} La libertad de ejecutar el programa, para cualquier propósito
+(libertad 0). 
+
+{*} La libertad de estudiar cómo trabaja el programa, y cambiarlo
+para que haga lo que usted quiera (libertad 1). El acceso al código
+fuente es una condición necesaria para ello. 
+
+{*} La libertad de redistribuir copias para que pueda ayudar al prójimo
+(libertad 2).
+
+{*} La libertad de distribuir copias de sus versiones modificadas
+a terceros (la 3ª libertad). Si lo hace, puede dar a toda la comunidad
+una oportunidad de beneficiarse de sus cambios. El acceso al código
+fuente es una condición necesaria para ello. \citep{Stallman1996a}
+\end{quotation}
+Varios ensayos de Stallman explican a detalle las implicaciones de
+estas libertades. Están disponibles en el sitio web del sistema operativo
+GNU. Una versión impresa de estos ensayos fue editada en 2002\nocite{Stallman2009}
+por la \emph{Free Software Foundation} (FSF) bajo el título \emph{Free
+software, free society}. La compilación resulta vital para comprender
+los principios y motivaciones para la creación del software libre
+y sus efectos en la sociedad.
+
+Otro \emph{hacker} con ensayos importantes es Eric S. Raymond, también
+programador. Su postura difiere con la de Stallman en cuanto que prefiere
+el término código fuente abierto (\emph{open source}) en lugar de
+software libre \citep{Raymond1998}. El argumento principal es que
+si el software libre pretende entrar al mundo comercial, debe adaptarse
+a las necesiades corporativas. Esto implicaría que el software podría
+tener propietarios, pero los usuarios tendrían la posibilidad de analizar
+el funcionamiento interno del programa y sugerir modificaciones.
+
+Raymond explicaría más a detalle su postura frente al software en
+su libro \emph{The cathedral and the bazaar} \citeyearpar{Raymond2001}.
+No sólo ejemplifica cómo el código fuente abierto rinde mejores resultados,
+también es más seguro ya que su fortaleza se encuentra en que todos
+los usuarios pueden hacer sugerencias para mejorarlo. Es aquí donde
+Raymond formula la llama {}``Ley de Linus'': {}``Con muchas miradas,
+todos los errores saltarán a la vista.'' \citep{Raymond2001,Himanen2001}
+
+Este \emph{hacker }también publicaría un archivo conocido como \emph{The
+Jargon File}, editado en papel con el nombre de \emph{The hacker's
+dictionary} \citeyearpar{Raymond1999}. Se trata de un glosario semi-humorístico
+con términos utilizados coloquialmente en el lenguaje \emph{hacker}.
+Se enfoca casi totalmente a los \emph{hackers} tradicionales, no a
+los intrusos o al \emph{underground} informático. Algunos autores
+dentro de la academia lo utilizan para obtener definiciones desde
+dentro. Hubo un intento de traducción al español que no prosperó.
+
+En los anexos del \emph{Hacker's dictionary} se intenta una descripción
+del {}``J. Random Hacker'', es decir, el \emph{hacker} promedio.
+Raymond lo caracteriza basándose en su género, etnicidad, apariencia,
+educación, gustos personales y distribución geográfica. Esta, por
+supuesto, no se trata de una descripción sistemática:
+\begin{quotation}
+Los \emph{hackers} visten buscando el comfort, la funcionalidad y
+las menores molestias posibles en vez de buscar una buena apariencia
+(algunos, desafortunadamente quizá, llevan esto al extremo y descuidan
+la higiene personal). Tienen baja tolerancia a los trajes y otros
+atuendos de {}``negocios''; de hecho, no es poco común que un \emph{hacker}
+renuncie a su empleo en vez de apegarse a una etiqueta de vestuario.
+Cuando de alguna forma son convencidos de apegarse a estas convenciones,
+encontrarán maneras de transgredirlas, usando corbatas absurdas por
+ejemplo.\citep[pág. 522]{Raymond1999} %
+\footnote{\emph{Hackers dress for comfort, function, and minimal maintenance
+hassles rather than for appearance (some, perhaps unfortunately, take
+this to extremes and neglect personal hygiene). They have a very low
+tolerance of suits and other \textquoteleft{}business\textquoteright{}
+attire; in fact, it is not uncommon for hackers to quit a job rather
+than conform to a dress code. When they are somehow backed into conforming
+to a dress code, they will find ways to subvert it, for example by
+wearing absurd novelty ties.}%
+}
+\end{quotation}
+Estos textos son base importante para la mayor parte de los estudios
+sobre desarrolladores de software libre y\emph{ hackers} tradicionales.
+En estos libros se han basado Himanen \citeyearpar{Himanen2001},
+Wark \citeyearpar{Wark2004} y Coleman \citeyearpar{Coleman2008}
+para definir al \emph{hacker}.
+
+Otra publicación importante es la revista \emph{2600: The hacker quarterly}
+de Nueva York, se encuentra en circulación desde 1984. Su editor es
+un \emph{hacker} de seudónimo Emmanuel Goldstein. En ella se pueden
+encontrar tanto artículos técnicos como otros de corte más político
+y social. En \citeyear{Goldstein2008} publicaron una compilación
+de 871 páginas con los artículos más importantes divididos por tema.
+
+Golstein y el grupo editorial de la revista participaron en la realización
+del documental \emph{Freedom downtime} \citep{Goldstein2001}, sobre
+las irregularidades en el proceso legal en contra de Kevin Mitnick.
+La película es importante por ser al única en donde los hackers se
+documentan a sí mismos \citep{Lozano2011}. También publicaron recientemente
+otro libro titulado \emph{Dear hacker} \citep{Goldstein2010} que
+consiste en una compilación de cartas al editor publicadas en la revista
+2600.
+
+El mismo Kevin Mitnick \emph{hacker} en el sentido de {}``intruso
+informático'', ha publicado libros. Después de su liberación, los
+términos de su libertad condicional exigían que no utilizara una computadora
+durante un periodo de tiempo. Escribió su primer libro \emph{The art
+of deception, controlling the human element of security} \citep{Mitnick2002}
+en una máquina de escribir.
+
+En él, Mitnick describe con ejemplos las técnicas utilizadas por \emph{hackers}
+como él para obtener acceso no autorizado a diferentes sistemas. No
+se limita a las redes informáticas, de hecho, se enfoca más a la llamada
+{}``ingeniería social'', una técnica que consiste en engañar al
+usuario para que él mismo permita el acceso. Mitnick actualmente es
+un consultor de seguridad y se dedica a asesorar a diferentes empresas
+para defenderse de estas técnicas.
+
+
+\subsubsection{Recuentos periodísticos}
+
+Decidí separar este tipo de literatura del resto. Sólo mezclé dos
+libros periodísticos con los académicos debido a su importancia y
+la cantidad de veces que son citados en otros trabajos: \emph{Hackers}
+\citep{Levy1984} y \emph{The hacker crackdown} \citep{Sterling1992}. 
+
+El \emph{hacking} es un tema muy tratado por los periodistas debido
+a lo seductor y novedoso del tema. Al revisar los títulos de estos
+libros, es evidente que se encuentran presentes las imágenes de espionaje,
+persecuciones e ilegalidad. Estos recuentos en ocasiones son muy poco
+metódicos, por lo que se deben tratar con cautela. Aún así, debido
+a la carencia de información al respecto, suponen una buena forma
+de obtener datos que puedan contextualizar el fenómeno. Los textos
+revisados fueron los siguientes:
+\begin{APAitemize}
+\item \emph{Stalking the wily hacker} \citep{Stoll1988}.
+\item \emph{The cuckoo's egg: Tracking a spy through the maze of computer
+espionage} \citep{Stoll1989}.
+\item \emph{Approaching zero: The extraordinary underworld of hackers, phreakers,
+virus writers, and keyboard criminals} \citep{Mungo1992}.
+\item \emph{Hacker cracker: A journey from the mean streets of Brooklyn
+to the frontiers of cyberspace} \citep{Hafner1995}.
+\item \emph{Masters of deception: The gang that ruled cybespace} \citep{Quittner1994}.
+\item \emph{Cyberpunk: Outlaws and hackers on the computer frontier} \citep{Hafner1995a}.
+\item \emph{Takedown: The pursuit and capture of Kevin Mitnick, America's
+most wanted computer outlaw\textemdash{}by the man who did it} \citep{Shimomura1996}.
+\item \emph{The fugitive game: Online with Kevin Mitnick} \citep{Littman1996}.
+\item \emph{The watchman: The twisted life and crimes of serial hacker Kevin
+Poulsen} \citep{Littman1997}.
+\end{APAitemize}
+
+\subsubsection{Lo que quedó fuera}
+
+He dejado de lado muchos estudios sobre otras práctica \emph{hacker}
+muy importantes, pero alejadas de los objetivos de esta investigación.
+Por una parte se encuentra la \emph{demoscene} computacional, que
+es la programación de animaciones en tiempo real sin fines de lucro
+para explotar al máximo las capacidades de una computadora \citep{Polgar2008}.
+Sobre esta práctica en particular existe una extensa bibliografía,
+no sólo en inglés, también en finlandés y alemán, ya que en Europa
+tiene su mayor auge.
+
+También quedó fuera encuentra la programación de virus informáticos.
+Durante un tiempo fue una práctica lúdica y existieron varias agrupaciones
+de \emph{hackers }dedicados a la creación de virus. Ellos también
+publicaban \emph{e-zines} con artículos sobre nuevas técnicas de programación
+y noticias del mundo de los virus. Sarah Gordon la investigadora más
+notable en este campo. Desconozco si hay trabajos sobre la escena
+de virus actual.
+
+Por último, el \emph{hacktivismo} ha tenido que ser dejado de lado
+igualmente. Este es uno de los temas más relevantes sobre el hacking
+actual, en vista de lo que ha sucedido con organizaciones como Wikileaks
+y Anonymous. Las técnicas \emph{hacker} parecen tener usos políticos
+de protesta.
+
+En lo particular me gustaría abordar estos tres aspectos de la cultura
+\emph{hacker}, sin embargo los objetivos de esta investigación van
+por otro camino. Presento un breve listado de los trabajos más importantes
+dejados de lado, que aún así pueden apoyar tangencialmente a comprender
+los fenómenos a estudiar en esta tesis:
+\begin{APAitemize}
+\item \emph{Virus writers: The end of the innocence? }\citep{Gordon2000}.
+\item \emph{The Gathering: Computer parties as means for gender inclusion}
+\citep{Nordli2003}.
+\item \emph{Jóvenes, hacktivismo y sociedad de la información, recorrido
+introductorio por el activismo tecnológico en Cataluña} \citep{Gualdron2006}.
+\item \emph{Freax. The brief history of the computer demoscene} \citep{Polgar2008}.
+\item \emph{The future of demo art: The demoscene in the 2010s} \citep{Heikkil2010}.
+\end{APAitemize}
+
+\subsection{Contexto}
+
+Creo que para contextualizar al \emph{hacker} no hace falta añadir
+mucho más. Aún así, el surgimiento de los \emph{hackers} es todavía
+un asunto que no ha sido suficientemente estudiado. Existen aproximaciones
+generales, pero no ha habido un verdadero esfuerzo historiográfico
+por conocer sus orígenes. Lo irónico es que la mayor parte de los
+pioneros sigue con vida.
+
+Aún así, muchos elementos pueden darnos pistas para intuir los orígenes.
+Douglas Thomas afirma que para comprender a los hackers es necesario
+comprender la historia de las computadoras y de la cultura computacional
+\citep{Thomas2002}. Es imposible comprender los \emph{hackers} sin
+comprender que sus orígenes fueron posibles gracias al desarrollo
+de las tecnologías de la información, pero que el desarrollo de estas
+tecnologías también fue gracias a ellos: {}``Los \emph{hackers }y
+su cultura son una de las fuentes esenciales de la invención y continuo
+desarrollo de Internet.'' \citep[pág. 10]{Castells2003}
+
+La imagen del \emph{hacker} ha ido cambiando conforme las tecnologías
+cambian. La palabra \emph{hacker} se utiliza de maneras tan distintas
+y en contextos tan diferentes que es muy difícil saber exactamente
+a qué es a lo que se refieren. Durante los años noventa, la sociedad
+vertía en el hacker todas sus ansiedades con respecto a las nuevas
+tecnologías \citep{Thomas2002}. No sería hasta la primera década
+del siglo XXI, donde la imagen del \emph{hacker} fue vista positivamente
+de nuevo. Esto puede deberse a varios motivos.
+
+Uno de ellos fue la popularización de Internet y las tecnologías digitales.
+Conforme más personas aprendían a usarlas, el miedo hacia ellas iba
+disminuyendo. Quizá por eso también vemos representaciones menos descabelladas
+de computadoras en el cine y las películas.
+
+Otro motivo que pudo haber creado confianza fue el suceso del Y2K,
+el error informático del año 2000. El periodismo publicaba una y otra
+vez que el mundo estaba a punto de acabar. Cuando esto no sucedió,
+la tensión bajó.
+
+Como podemos ver, el término \emph{hacker} se emplea con una multiplicidad
+de significados. Cuando comenzaba a leer libros que describían a los
+\emph{hackers}, me sorprendía mucho encontrar contradicciones y diferencias
+en los autores. Ahora entiendo que cada autor respondía a sus coordenadas
+sociotemporales específicas.
+
+
+\section{Planteamiento del problema}
+
+\epigraph{
+	\emph{You are in a maze of twisty little passages, all alike}}
+{\emph{Colossal cave adventure}
+\linebreak
+Primer videojuego de aventuras}
+
+Cuando revisaba de qué manera abordar esta investigación, pronto me
+di cuenta de que las posibilidades eran muchísimas. Como en cualquier
+trabajo de este tipo es necesaria una delimitación cuidadosa del problema.
+De lo contrario puede quedar tan grande que sea inabarcable, o tan
+pequeño que pueda resultar trivial. Quisiera presentar al lector las
+consideraciones que tomé en cuenta para poder delimitar esta investigación.
+
+Muchos trabajos sobre \emph{hackers} se adscriben al paradigma de
+la {}``sociedad de la información'' \citep{LizamaMendoza2005,Ore2007,Gualdron2006,Himanen2001}.
+Este concepto fue desarrollado por Manuel Castells, entre otros, y
+es una aproximación teórica a la comprensión de la sociedad y la economía,
+principalmente en la segunda mitad del siglo XX. Esto como consecuencia
+de un largo proceso que puede rastrearse hasta la revolución industrial.
+Según el autor, las sociedades se están transformando debido a la
+influencia e importancia de las tecnologías de la información y la
+comunicación (TICs).
+
+Estas tecnologías constituyen la base material para la sociedad de
+la información y tienen cinco características básicas:
+\begin{APAenumerate}
+\item Son tecnologías para actuar sobre la información. La información es
+su materia prima.
+\item Todos los procesos de la existencia individual y colectiva están directamente
+moldeados por el nuevo medio tecnológico.
+\item Existe una lógica de interconexión entre sistemas que utilizan estas
+tecnologías.
+\item Tienen alta flexibilidad. Pueden modificarse las organizaciones y
+las instituciones mediante la reordenación de sus componentes.
+\item Existe una convergencia creciente de tecnologías específicas en un
+sistema altamente integrado \citep[págs. 88-89]{Castells2006}.
+\end{APAenumerate}
+Castells aclara que {}``Lo que caracteriza a la revolución tecnológica
+actual no es el carácter central del conocimiento y la información,
+sino la aplicación de ese conocimiento e información a aparatos de
+generación de conocimiento y procesamiento de la información/comunicación,
+en su círculo de retroalimentación acumulativo entre la innovación
+y sus usos.'' \citep[pág. 58]{Castells2006}
+
+Himanen \citeyearpar{Himanen2001} situó a los \emph{hackers }dentro
+de la lógica de este paradigma, interpretándolos como agentes que
+desean {}``liberar'' la información de las trabas que le prohiben
+circular con mayor dinamismo. Lizama \citeyearpar{LizamaMendoza2005}
+llega a conclusiones similares. Para Contreras \citeyearpar{Contreras2004},
+los \emph{hackers} construyen su identidad a partir de las redes meritocráticas
+en las que interactúan.
+
+Debido a que las prácticas \emph{hacker} involucran a las tecnologías
+de la información y todas sus actividades tienen una lógica de interconexión,
+no es difícil ver por qué se ha utilizado este paradigma para estudiarlos.
+Por mi parte, creo que es adecuado situarlos en este contexto. Sobre
+la práctica \emph{hacker} y cómo incide exactamente en las TICs se
+discutirá más adelante.
+
+Quisiera ahora plantear cómo se limitó el problema de investigación
+en sus diferentes aspectos.
+
+
+\subsection{Espacio contra ciberespacio}
+
+Por una parte, muchas de las actividades \emph{hacker} ocurren a través
+de plataformas en línea como foros, salas de charla y páginas de Internet.
+De la misma forma, la publicación en línea es mucho más {}``obvia''
+para un \emph{hacker} que las publicaciones en papel como libros o
+revistas. Los ataques \emph{hacker} se dan principalmente en el mundo
+virtual. Para poner dos ejemplos, podemos citar los \emph{defacements,}
+que son alteraciones no autorizadas de páginas web, o los llamados
+DDoS, ataques distribuidos donde se pretende dejar a un servidor web
+fuera de servicio. En mi experiencia también interactué con muchos
+\emph{hackers} sin conocerlos nunca en persona y hasta la fecha tengo
+contacto con algunos sin saber siquiera en qué lugar radican.
+
+Sin embargo, muchas actividades \emph{hacker} ocurren también en el
+espacio real. Existe una larga tradición de reuniones presenciales
+dentro del mundo \emph{hacker}. Un ejemplo de ello podrían ser los
+\emph{LAN Parties.} LAN son las siglas de \emph{Local Area Network},
+una red que abarca poco espacio físico y conecta un número muy limitado
+de computadoras. Durante los setenta, antes de la popularización de
+Internet, los hackers se reunían en algún lugar cargando cada quien
+con su computadora. Se conectaban en red y compartían información.
+Posteriormente se hicieron estas reuniones para jugar videojuegos
+en red y se siguen realizando hasta el día de hoy \citep{Polgar2008}.
+También hay otro tipo de reuniones y conferencias que se discutirán
+más adelante.
+
+Esta oposición entre lo {}``real'' y lo {}``virtual'' es una de
+las perspectivas que está siendo desarrollada desde los años noventa.
+El concepto de ciberespacio que crearía William Gibson en su novela
+sobre \emph{hackers}, que sería retomado por Perry Barlow \citep{Sterling1992}
+implica la idea de que Internet y las redes digitales de comunicación
+constituyen un nuevo espacio, un espacio {}``virtual'' separado
+del {}``real''.
+
+Para Pierre Levy \citeyearpar{Levy2001}, lo virtual filosóficamente
+es aquello que existe en potencia. Las entidades son virtuales en
+cuanto se encuentran {}``deterritorializadas'', es decir, no se
+encuentran sujetas a un tiempo y espacio en particular. Bauman, cuando
+habla de los diferentes espacios en donde se puede practica la cultura,
+afirma: {}``El ciberespacio no está anclado territorialmente y permanece
+en una dimensión diferente e inalcanzable \textemdash{}mucho menos
+controlable\textemdash{} desde las dimensiones por las que suelen
+operar los 'poderes soberanos' terrenos.'' \citep[pág. 45]{Bauman2002}
+
+Ha sido difícil para mi conciliar estas dos visiones. También en trabajos
+como el de Me llamo Kohfam \citep{Contreras2004} se apuesta por una
+visión de los \emph{hackers} totalmente virtual y desterritorializada.
+Durante el estudio también se me presentaba la oportunidad de hacer
+un estudio centrado exclusivamente en lo virtual, sobre todo a la
+luz de actividades de \emph{hacktivismo} que se han visto en años
+recientes con organizaciones como\emph{ Anonymous}.
+
+Pero este camino no me agradaba del todo por que poco tenía que ver
+con mi experiencia personal. Yo intentaba conocer \emph{hackers} en
+mi ciudad o alrededores, gente con los mismos gustos. A veces nos
+reuníamos en cibercafés o en casas para platicar y compartir información.
+Aunque nos comunicábamos también por medio de correo electrónico,
+una reunión presencial de vez en cuando dinamizaba la interacción.
+En mis exploraciones preeliminares encontré algo similar. Cada cierto
+tiempo hay reuniones, y en los espacios entre ellas existe la comunicación
+por medios digitales.
+
+Tenía frente a mis narices una oportunidad única, pero precisamente
+por la cercanía a ella me parecía invisible. Me fue obvia un viernes
+que hacía fila dentro de mi automóvil en la garita internacional de
+México y Estados Unidos para ir a una reunión \emph{hacker} en San
+Diego. Las filas con frecuencia son largas y muchos vendedores se
+encuentran ofreciendo bebidas y alcancías de yeso. Una persona repartía
+un periódico gratuito y lo acepté para leer algo mientras esperaba.
+
+El primer artículo tenía como título {}``Silicon Border: ¿Sueño imposible?''.
+Me reproché mi ceguera. Cuando me encontraba estudiando ingeniería,
+una de las grandes promesas laborales era el llamado Silicon Border
+(www.siliconborder.com), un proyecto tecnológico que intentaría ser
+un espejo del Sillicon Valley de California: Un complejo industrial
+tecnológico que daría empleo a miles de personas en la región. El
+artículo mencionaba:
+\begin{quotation}
+Hace más de cinco años asistí a la ceremonia de {}``primera piedra''
+de un mega proyecto llamado Silicon Border, que se iba a convertir
+en un detonante de empleo y desarrollo, un parque tecnológico en el
+que la empresa Q Cells produciría millones de dólares y daría trabajo
+no solamente a obreros sino a miles de ingenieros. Fue en el cuarto
+piso del edificio del Gobierno Estatal, donde se dio el anuncio, con
+la asistencia de inversionistas americanos y unos meses más tarde
+se {}``puso la primera piedra'' de ese gran proyecto que ahora,
+a cinco o seis años de distancia, se ha convertido en una quimera,
+en un sueño imposible. \citep{AzcarateVarela2011}
+\end{quotation}
+El artículo se centraba en los ejidatarios que vendieron sus terrenos
+para que se realizara el proyecto. Debido a la cancelación del proyecto
+por la crisis económica de Estados Unidos, no se había pagado ni el
+50\% de las tierras. Silicon Border se encuentra actualmente congelado,
+y los terrenos están baldíos.
+
+¡Qué diferente perspectiva existe en este lado de la frontera! Mientras
+que en Silicon Valley se han creado fortunas, han surgido innovaciones
+como el transistor y es sede de empresas como Apple Inc., Google,
+Intel y Yahoo! \citep{Castells2006}. En Baja California no se pudo
+siquiera concretar la instalación de una empresa transnacional.
+
+Fue entonces cuando me pregunté: ¿No sería interesante enfocarme a
+los \emph{hackers }que residen en la frontera entre California y Baja
+California? Los \emph{hackers} ubicados este contexto viven realidades
+bastante diferentes, sin embargo poseen mucho en común. Tomando en
+cuenta que no existen muchas investigaciones sobre \emph{hackers}
+en latinoamérica, me parece importante tomar esto como punto de partida.
+No sólo hacer un estudio desde un lado u otro de la frontera, si no
+establecer comparaciones. ¿Están totalmente determinados por el país
+en el que viven?
+
+Es increíble lo mucho que tardé en darme cuenta de esta oportunidad.
+Actualmente vivo a una cuadra del cerco que divide ambos países y,
+como estoy en un segundo piso, por mi ventana puedo ver por encima
+del cerco hacia el suelo americano. Un \emph{hacker} en la reunión
+de San Diego a la que fui me comentaba que estuvo en un entrenamiento
+militar cerca de la frontera y alcanzaba a ver a Tijuana por encima
+del cerco. Su sensación fue de miedo, ¿qué tal si alguien les disparaba
+desde México?
+
+La región fronteriza relevante para este estudio abarca los municipios
+de Mexicali, Tecate y Tijuana del lado bajacaliforniano, y del lado
+californiano los condados de Imperial y San Diego.
+
+
+\subsection{¿Qué es un hacker?}
+
+Como quedó evidenciado en la revisión de trabajos previos, el término
+\emph{hacker} se utiliza para englobar una gran cantidad de personas,
+prácticas y estilos de vida. Esto presenta un problema a la hora Durante
+mis exploraciones iniciales en México llegaba con varias personas
+que podrían ser consideradas como \emph{hackers}, sin embargo ellos
+lo negaban.
+
+En un \emph{LAN Party} uno de los asistentes me comentó que había
+comprado varias antenas parabólicas usadas. Las colocó en el techo
+de su casa y las unió a través de un dispositivo que podía combinar
+y decodificar señales. Se puso a buscar satélites moviendo las antenas
+y logró sintonizar 1500 canales de todo el mundo. Como juego, a veces
+simplemente le {}``daba la vuelta'' a la televisión. Con el control
+remoto presionaba el botón de cambiar canal hasta que hubiera visto
+todos.
+
+Con esa y otras prácticas no se consideraba un \emph{hacker}. Me encontré
+muchos ejemplos como ese y comencé a cuestionarme qué significa ser
+\emph{hacker }en el presente\emph{.} Quizá en el pasado era mucho
+más fácil diferenciarlos del resto de los usuarios, puesto que las
+computadoras no tenían todavía un grado de penetración tan grande
+como el día de hoy. A pesar de que en México los índices de conectividad
+todavía son muy bajos, hay mucho más acceso a las TICs que hace quince
+o veinte años.
+
+Las prácticas \emph{hacker} ahora son realizadas por no-\emph{hackers}:
+Desbloqueo de celulares, piratería de software, LAN Parties, programación
+de software libre. Es muy común encontrar practicantes de todo esto
+que no se asumen como \emph{hackers}. ¿Puede ser esto una consecuencia
+de la popularización de las TICs o de la sociedad de la información?
+
+Los \emph{hackers} tienen acceso a la misma tecnología que el resto
+de los usuarios \citep{Meyer1989}. Durante los noventa se enfatizó
+mucho el \emph{hacking} como el uso de herramientas, como si fueran
+éstas las que permitían cometer los crímenes \citep{Thomas2002}.
+Ahora se considera que es el uso de la misma tecnología que está disponible
+para todos lo que distingue al \emph{hacker}.
+
+Y quizá el \emph{hacker} no es lo importante, quizá la clave está
+en el \emph{hacking} que en la actualidad puede ser realizada o no
+por \emph{hackers}. Ahora, para recuperar un poco el discurso al interior
+de la cultura, recordemos que uno de los puntos especificados por
+Levy en su descripción de ética del hacker es: {}``Un \emph{hacker}
+debe ser valorado por sus 'hacks'. Es decir, por la calidad de sus
+diseños y programas, no por criterios falsos y postizos como las titulaciones
+académicas, la raza o la posición social.{}`` \citep[pág. 33]{Contreras2004}
+
+Por estas razones decidí cambiar el enfoque de la investigación de
+los individuos a las prácticas. Lo interesante será saber los usos
+que se hacen de la tecnología. Para esto es necesario saber qué se
+entiende por {}``práctica \emph{hacker}'', lo cual se discutirá
+más adelante.
+
+
+\subsection{Reuniones \emph{hacker}}
+
+Como ya mencioné, existe una larga tradición de reuniones presenciales
+en la cultura \emph{hacker}. Diferentes autores se han encontrado
+con la dificultad metodológica de encontrarlos. Algunos se han ido
+a foros, otros los han estudiado a través de sus publicaciones, otros
+en convenciones. La misma dispersión y heterogeneidad de los \emph{hackers}
+hace difícil una selección y muestreo sencillo. 
+
+Por mi parte, he decidido centrarme en las reuniones presenciales
+públicas. En estas reuniones normalmente se asiste para compartir
+información y mostrar lo que se ha hecho. En ocasiones también para
+hacer talleres o pláticas sobre un tema en particular. Explicaré con
+mayor detalle los tipos de reuniones que he encontrado en la zona
+fronteriza de las Californias.
+
+
+\subsubsection{Reuniones 2600}
+
+La revista newyorkina 2600 convoca a reuniones los primeros viernes
+de cada mes. Estas reuniones se realizan en diferentes partes de todo
+el mundo y no tienen una organización rígida. Los lugares elegidos
+normalmente son céntricos, abiertos al público y donde hay acceso
+a Internet y teléfonos públicos. Por ejemplo, en San Diego se realizan
+en La Jolla, en Phoenix en Central Avenue, en Los Ángeles en el Downtown
+y en México D.F. cerca del Zócalo.
+
+Generalmente tienen líderes que participan más activamente que otros
+asistentes y son los que se mantienen en contacto con la revista.
+Cuando se quiere establecer una nueva reunión, la revista pide información
+sobre las primeras reuniones y después de que se nota cierta regularidad
+en la asistencia, las incluye en el listado oficial .
+
+Hay varios puntos a ser tomados en cuenta a la hora de organizar las
+reuniones. En la página oficial de la revista se encuentran listados.
+Las reuniones de México D.F. cuentan con una página en donde se muestran
+estos puntos en español:
+\begin{quotation}
+2600 MEETING GUIDELINES.
+
+1) Nos reunimos en un lugar público. No tenemos nada que esconder.
+
+2) Actuamos en manera responsable, no hacemos actos ilegales y no
+queremos causar problemas en el lugar donde nos reunimos.
+
+3) Nos reunimos el primer viernes de cada mes a las 5pm hora local
+\citep{Raza-Mexicana2010}.
+\end{quotation}
+La página oficial (http://www.2600.com/meetings/guidelines.html) incluye
+algunas otras recomendaciones. Entre ellas la siguiente:
+\begin{quotation}
+Aunque las reuniones no se limitan a grandes ciudades, la mayoría
+ocurre en grandes áreas metropolitanas que son accesibles fácilmente.
+Puede ser conveniente hacer una reunión en tu pueblo, pero invitamos
+a la gente a ir a reuniones donde conocerán gente del área más amplia
+posible. Así que si hay una reunión a una hora o dos de distancia,
+asiste a esa en vez de tener dos reuniones pequeñas bastante cerca
+de la otra. Siempre tendrás la oportunidad de reunirte con los {}``\emph{hackers}
+de tu pueblo'' en el momento que gustes.%
+\footnote{\emph{While meetings are not limited to big cities, most of them take
+place in large metropolitan areas that are easily accessible.While
+it's convenient to have a meeting in your home town, we encourage
+people to go to meetings where they'll meet people from as wide an
+area as possible. So if there's a meeting within an hour or two of
+your town, go to that one rather than have two smaller meetings fairly
+close to each other. You always have the opportunity to get together
+with \textquotedbl{}home town hackers\textquotedbl{} any time you
+want.}%
+}
+\end{quotation}
+La asistencia gente interesada en el \emph{hacking} y la apertura
+a visitantes externos se presta para ir a observar y conocer posibles
+informantes.
+
+
+\subsubsection{LAN Parties}
+
+Este tipo de reuniones tienen por objetivo el compartir información
+y jugar en línea. Por lo general, cada asistente lleva su propia computadora
+y se conecta en red. Se realizan con frecuencia en domicilios particulares,
+pero hay veces que se realizan en cibercafés, por lo que las computadoras
+ya se encuentran ahí. También es común tener una cuota de recuperación
+para gastos de electricidad y equipo.
+
+
+\subsubsection{Hackerspaces}
+
+Según la página hackerspaces.org, éstos son {}``lugares físicos operados
+comunitariamente, donde la gente puede encontrarse y trabajar en sus
+proyectos.'' Hasta la fecha no he encontrado ningún trabajo académico
+sobre este tipo de lugares. En la página mencionada se encuentra un
+listado oficial de los hackerspaces con su ubicación geográfica y
+un vínculo a sus páginas oficiales.
+
+
+\subsubsection{Conferencias y talleres}
+
+Existen también grupos que se reúnen regularmente para el aprendizaje
+de alguna tecnología o técnica particular. Generalmente puede ser
+referente a la programación en plataformas \emph{open source} o libres,
+pero también incluye electrónica.
+
+
+\subsection{Pregunta de investigación}
+
+Ya con la delimitación establecida, quisiera dejar muy clara cuál
+es la pregunta de investigación. Esta pregunta es el motor del trabajo
+determina todas las decisiones que vienen posteriormente: ¿Cuáles
+son los usos que se dan a las prácticas \emph{hacker} en la región
+fronteriza de las Californias?
+
+
+\section{Objetivos}
+
+Para responder a la pregunta de investigación, es necesario plantear
+un objetivo general, del cual se desprenden objetivos específicos
+más finos. El hacerlo de esta manera divide a la investigación en
+partes más manejables que pueden ser resueltas de manera más fácil.
+Los objetivos de esta investigación son los siguientes:
+
+\textsc{Objetivo general}
+
+Comprender los usos y representaciones que los individuos que realizan
+prácticas \emph{hacker} en la frontera de las Californias les dan
+a éstas para determinar su postura política ante las tecnologías de
+la información.
+
+\textsc{Objetivos específicos}
+\begin{APAitemize}
+\item Analizar las prácticas \emph{hacker} de individuos en la zona fronteriza
+de las Californias.
+\item Determinar las posturas frente a la tecnología de los individuos que
+realizan prácticas \emph{hacker}.
+\item Comprender políticamente los usos sociales de la tecnología.
+\end{APAitemize}
+
+\section{Justificación}
+
+Revisar la bibliografía existente revela un hueco grandísimo. Las
+pocas investigaciones realizadas se centran exclusivamente en Estados
+Unidos y Europa. La única excepción es el trabajo de Lizama Mendoza.
+El resto del mundo es ignorado o, para decirlo de otra forma, no ha
+estudiado el tema. La pregunta es interesante: ¿Hay \emph{hackers}
+en otros países? Si hacemos una lectura desde la academia, pareciera
+que no.
+
+La experiencia personal me indica que sí. Durante mi adolescencia
+conocí a varios hackers mexicanos en mi ciudad y a través de Internet.
+Mantuve comunicación con \emph{hackers} sudamericanos e intentaba
+estar al tanto de \emph{e-zines} en español. En el periodismo también
+se reportan en ocasiones crímenes y actividades realizadas por \emph{hackers}
+chinos o palestinos. El objetivo de esta tesis no es el averiguar
+por qué existe este {}``agujero negro'' pero es importante al menos
+reflexionar sobre las causas del mismo.
+
+Una posibilidad es que no haya hecho una revisión los suficientemente
+exhaustiva. Quizá haya más tesis sobre el tema en universidades latinoamericanas,
+mas no se encuentren indexadas en Internet. Una visita presencial
+podría revelar su existencia. Otra posibilidad es la barrera del idioma.
+He encontrado una cantidad importante de textos sobre la \emph{demoscene},
+por ejemplo, en alemán y finlandés. Esto gracias a que investigadores
+del tema ha colocado vínculos a ellas en sus páginas. De lo contrario
+hubiera sido difícil encontrarlas. 
+
+Aún así, la mayor parte de las investigaciones del tema se encuentra
+en inglés. Además, su objeto de estudio se encuentra ubicado en Europa
+y Estados Unidos a pesar de que algunas estudiaron la virtualidad
+y el {}``ciberespacio.'' Esta es una de las claves de la relevancia
+de este trabajo: Comenzar a esclarecer el panorama en este sentido.
+Incluso los autores que escriben sobre los \emph{hackers} en México
+tienen que recurrir a autores extranjeros. En mi caso, sucede lo mismo.
+Los referentes explican a los individuos de otros países, ¿cómo funcionarán
+esas teorías y estudios trasladadas a otra realidad?
+
+Por otra parte, los \emph{hackers}, o al menos sus ideales, se colocan
+cada vez más como agentes sociales generadores de cambio. No sólo
+en las intervenciones con la tecnología, también en su protesta social.
+En varios países existe ya en el ámbito político un Partido Pirata
+basado en valores \emph{hacker} que busca incorporar políticas públicas.
+Ya he mencionado en varias ocasiones el caso de \emph{Wikileaks} y
+el grupo \emph{Anonymous}. Julian Assange es un \emph{hacker} convertido
+en activista \citep{Huor2010}.
+
+Los valores \emph{hacker }se integran cada vez más en la sociedad.
+Ya no pueden ser ignorados. Los usuarios de computadora ahora tienen
+elecciones reales entre software propietario y software libre, mientras
+que hace veinte años éste último era sólo para expertos. Comprender
+la cultura \emph{hacker} es comprender procesos que han venido creciendo
+en las últimas décadas.
+
+Un ejemplo reciente es el de GeoHot, el primer \emph{hacker} que logró
+desbloquear el teléfono iPhone de Apple Inc. Recientemente desbloqueó
+la consola de videojuegos PlayStation 3 de Sony y la empresa entabló
+una demanda contra él. El grupo \emph{Anonymous} reaccionó mediante
+ataques a Sony. Durante este periodo, hubo un acceso no autorizado
+a la red de juegos en línea PlayStation Network en donde se comprometieron
+los datos de 77 millones de usuarios. Entre la información robada
+se encuentran los números de tarjeta de crédito de muchos de ellos.
+Sony culpa a \emph{Anonymous} pero estos se deslindan del ataque \citep{Hachman2011,Hachman2011a,Thomas2011,Holtz2011}.
+Es muy difícil de comprender este tipo de conflictos si no se entiende
+la cultura \emph{hacker}.
+
+Por otra parte, la comprensión sobre los \emph{hackers} también motiva
+políticas públicas, políticas de seguridad informática, legislación
+al respecto. ¿Cómo ha logrado latinoamérica cambios en este aspecto
+sin estudios sobre el tema?
+
+
+\section{Bosquejo teórico}
+
+En la revisión de trabajos previos sobre el tema mencionaba que Gordon
+Meyer hace una distinción sumamente importante: La diferencia entre
+un \emph{hacker} y un usuario convencional es el uso que le da a la
+tecnología.
+
+Cuando me planteaba estudiar las {}``prácticas \emph{hacker}'' me
+parecía muy fácil hacer un listado a partir de los libros y textos
+existentes. De esta manera, podría hacer un rastreo histórico de las
+diferentes prácticas y justificar así el por qué las considero dentro
+de este concepto. Por ejemplo, la programación de software libre es
+una práctica \emph{hacker} por que surgió a partir de los manifiestos
+escritos por Richard Stallman. Algo similar puede suceder con el \emph{phreaking}
+telefónico: John Draper lo inició y cómo él es un \emph{hacker}, el
+\emph{phreaking} es una práctica \emph{hacker}.
+
+Había algo que no terminaba de convencerme de esta aproximación, la
+sentía un tanto arbitraria. Siguiendo con el principio de no dejarme
+llevar por el discurso de los \emph{hackers} y confiar más en la academia,
+busqué el concepto de {}``práctica hacker'' en algún ensayo. Ninguno
+daba una respuesta satisfactoria que pudiera abarcar lo que ya observaba
+en mis exploraciones preeliminares. En vista de que ningún autor había
+definido este concepto satisfactoriamente, pensé que sería una buena
+idea crear uno propio.
+
+Para esto retomé lo que varios de los autores ya revisados han dicho,
+para generar un nuevo concepto de práctica hacker \emph{a priori}
+que me pueda ayudar como guía para iniciar esta investigación. Es
+muy posible que, contrastada con los datos que se obtendrán, este
+concepto tenga que ser modificado. No quisera dar la impresión de
+que me estoy limitando únicamente a lo que otros autores han dicho,
+este sería un error metodológio que podría limitar las posibilidades
+de generación de conocimiento \citep{Miguelez2006}. Por lo pronto
+sirve como premisa, o guía para saber exactamente qué es lo que estamos
+buscando.
+
+
+\subsection{Práctica hacker}
+
+Los \emph{hackers} tienen el acceso a la misma tecnología que el usuario
+promedio, pero lo que diferencia a su práctica es la actitud política
+mediante la cual se aproximan a ella. Para Lizama Mendoza \citeyearpar{LizamaMendoza2005}
+los usuarios de estas tecnologías pueden ser clasificados en dos categorías
+de acuerdo a el uso social que hacen de ellas. A continuación se listan
+y explican brevemente las características de cada uno de ambas actitudes:
+
+\noun{Usuario despolitizado tecnológicamente}
+\begin{APAitemize}
+\item Diseño unilateral de la tecnología: La tecnología es diseñada por
+las grandes empresas tecnológicas y los usuarios se limitan a utilizarla
+sin cuestionarla.
+\item Marketing como criterio de selección: Los usuarios seleccionan la
+tecnología en base a la publicidad y no en base a su competencia tecnológica.
+\item Actualización tecnológica a partir de criterios oligopólicos: Las
+necesidades de actualización o migración son dictadas por la necesidad
+económica de la empresa en cuestión, no por las necesidades de los
+usuarios. Es aquí donde se puede aplicar el término {}``obsolescencia
+planeada'', cuando un dispositivo tiene un tiempo de vida artificial
+especificado por el fabricante.
+\item Usuarios tecnológicamente cautivos: La misma estructura de la tecnología
+provoca que el cambio de proveedor, o una migración hacia las plataformas
+de otra empresa sea complicado.
+\end{APAitemize}
+\noun{Usuario politizado tecnológicamente}
+\begin{APAitemize}
+\item Cultura \emph{do-it-yourself}: El usuario, por su propio interés,
+aprende sobre la tecnología y tiene la capacidad de modificarla.
+\item Comunidad autogestionada: Los descubrimientos generados por el proceso
+de aprendizaje son compartidos con otros usuarios mediante una dinámica
+que no está condicionada por un control corporativo o centralizado.
+\item Producción de información-conocimiento: Se objetiva este aprendizaje
+mediante memorias y artículos. 
+\item Politización tecnológica: Los usuarios tienen critero para evaluar
+y cuestionar la tecnología.
+\item Reinvención creativa: Crea dinámicas tendientes a innovar el diseño
+y uso de la tecnología.
+\end{APAitemize}
+Lizama Mendoza propone que el hacker se encuentra entre el segundo
+tipo de usuarios y {}``mediante la producción de software libre y
+la defensa de una internet donde impere el libre acceso y distribución
+de la información, han generado un modelo de uso social de la tecnología
+{[}...{]} que impulsa directamente el desarrollo de la cultura de
+la información'' \citep[pag. 194]{LizamaMendoza2005}.
+
+Para \citet{Coleman2008} las prácticas \emph{hacker} se encuentran
+imbricadas por principios liberalistas, aunque aclara que no son idénticos.
+Por liberalista debe entenderse:
+\begin{quotation}
+Para ser específicos, asumimos que el liberalismo engloba varias sensibilidades
+morales y políticas, a veces en conflicto, tanto históricas como actuales,
+preocupadas por un grupo de compromisos: proteger la propiedad y los
+derechos civiles, promover la autonomía individual y la tolerancia,
+asegurar una prensa libre, regida a través de un gobierno limitado
+y una ley universal, y comprometerse a garantizar la igualdad de oportunidades
+y la meritocracia.\citep[pág. 257]{Coleman2008}%
+\footnote{\emph{To be more specific, we take liberalism to embrace several,
+sometimes conflicting, historical and present day moral and political
+sensibilities concerned with a cluster of commitments: protecting
+property and civil liberties, promoting individual autonomy and tolerance,
+securing a free press, ruling through limited government and universal
+law, and preserving a commitment to equal opportunity and meritocracy.}
+(Las traducciones al español son\emph{ }mías).%
+}
+\end{quotation}
+Aunque el liberalismo se encuentre presente en el discurso de los
+hackers y éstos mencionen la libertad constantemente, los valores
+de éste se encuentran de diferente manera en cada práctica. La propuesta
+de Coleman y Golub es retomar el concepto de heteroglosia de Mijaíl
+Bajtín para pensar en la ética \emph{hacker} no como un paquete unitario
+e inmóvil, sino como una multiplicidad de discursos traslapados y
+de contenido variable, en ocasiones contradictorio. {}``En otras
+palabras, los hackers se mueven entre los géneros, cambian sus registros
+morales de la misma forma en que un políglota lo hace cuando cambia
+de un lenguaje a otro'' \citep[258]{Coleman2008}.%
+\footnote{\emph{In other words, hackers move between genres, changing moral
+registers the way a multilingual speaker switches from one language
+to another.}%
+}
+
+En el texto se proporcionan tres ejemplos de cómo opera el liberalismo
+dentro de las prácticas hacker: 
+\begin{APAitemize}
+\item Phil Zimmerman creó el software de encripción \emph{Pretty Good Privacy}
+en 1991. Con este programa cualquier usuario podría proteger su información
+mediante una contraseña increíblemente fuerte. El FBI comenzó una
+investigación a su programador, ya que el fácil acceso a este tipo
+de software podría significar el entorpecimiento de las labores de
+vigilancia del gobierno de Estados Unidos. El discurso de Zimmerman
+para crear el software incluye una reflexión sobre la libertad y la
+autonomía individual.
+\item Richard Stallman fundó una asociación de software libre para eliminar
+la propiedad intelectual del software. Los programas creados por esta
+asociación son libres de cargo, pero también pueden ser modificados
+por quien lo desee sin necesidad de pedir permiso a su creador. Pueden
+ser copiados o distribuidos de cualquier forma, siempre y cuando mantenga
+la misma licencia que otorgue los mismos derechos al destinatario
+\citep{Levy1984,Coleman2008,Himanen2001,LizamaMendoza2005,Meyer1989}.
+\item El \emph{underground} informático, que es el campo de interacción
+virtual donde los hackers con habilidades técnicas avanzadas buscan
+la exploración ilegal de sistemas y la trasgresión de barreras de
+seguridad a manera de reto personal \citep{Meyer1989,Coleman2008}.
+En éste, los individuos buscan romper las medidas de seguridad y obtener
+reconocimiento de sus iguales \citep{Himanen2001}.
+\end{APAitemize}
+El tercer ejemplo merece consideraciones aparte, ya que a través de
+él se desprende un importante elemento señalado por \citet{Thomas2002}:
+La confidencialidad. Las prácticas \emph{hacker} surgieron en un periodo
+de guerra fría y al igual que las tecnologías de comunicación que
+surgieron en la misma época comparten la misma lógica militar. La
+descentralización de Internet, por ejemplo, correspondía a la preocupación
+de la pérdida de autoridad por culpa de un ataque nuclear \citep{Rosenzweig1998}.
+
+Desde que Alan Turing descifró el código criptográfico utilizado por
+los alemanes en la segunda guerra mundial, ya hay una relación entre
+las máquinas y la privacidad. Durante la guerra fría, el departamento
+de defensa de Estados Unidos invirtió en las universidades para acelerar
+el desarrollo de nuevas tecnologías de comunicación y armamentismo.
+De ahí surgió la primera generación de \emph{hackers} \citep{Thomas2002,Wozniak2002}.
+
+Los \emph{hackers} buscan en ocasiones transgredir la confidencialidad,
+como en el caso de los intrusos informáticos como Kevin Mitnick y
+Kevin Poulsen \citep{Coleman2008,Littman1996,Thomas2002}, donde el
+objetivo es obtener información que no se está autorizado a poseer.
+En otras ocasiones la intención es abolirla, como en el caso de Richard
+Stallman que pretende liberar el código fuente de los programas y
+que cualquiera pueda verlo. El mismo asunto de Wikileaks puede ser
+analizado desde esta perspectiva, uno de los conflictos principales
+de esta organización es la confidencialidad y las contradicciones
+internas que el discurso \emph{hacker} trae consigo: Wikileaks difunde
+la confidencialidad de otros, pero resguarda la propia.
+
+Un último componente a tomar en cuenta para comprender la práctica
+\emph{hacker} es el aspecto lúdico de ésta. Este es el tema tratado
+por el filósofo Pekka \citet{Himanen2001}: Lo que distingue a la
+práctica \emph{hacker} es que se realiza con \emph{interés}, \emph{entusiasmo}
+y \emph{gozo} de manera que se realiza en el tiempo libre. Himanen
+contrasta esta ética de trabajo con la ética protestante descrita
+por Weber para afirmar que el \emph{hacker} posee horaros más flexibles
+y una motivación diferente. Mientras que el protestante buscaba ganarse
+el cielo como recompensa de un trabajo bien hecho, y su motivación
+es económica, el \emph{hacker} mira al trabajo como un juego, como
+un reto. Esto implica horarios de trabajo diferentes, el desarrollo
+de la colaboración y la creatividad.
+
+No debemos olvidar tampoco que muchas de las prácticas \emph{hacker}
+tienen un componente ilegal. Desde el derecho existen también tipificaciones
+sobre el \emph{hacking}, \emph{cracking} y \emph{phreaking} \citep{Calderon2010}.
+
+Para hacer un resumen de lo expuesto y cerrar la definición de este
+concepto, práctica \emph{hacker} es una categoría que incluye las
+siguientes subcategorías:
+\begin{APAitemize}
+\item Actitud politizada frente a la tecnología.
+\item Principios liberalistas.
+\item Actitud que afecta la confidencialidad.
+\item Componente lúdico.
+\item Legalidad/Ilegalidad.
+\end{APAitemize}
+En base a esta categoría se pueden abarcar las prácticas a observar
+tanto en el mundo virtual como en el real. En el primero a través
+de los foros, las salas de charla y listas de correo, en el segundo
+en las reuniones 2600, \emph{LAN oarties} y LUGs. A través de la observación
+de la práctica y el discurso sobre ella podremos comenzar el análisis.
+
+
+\section{Metodología}
+
+Para tratar de responder la pregunta de investigación y cumplir los
+objetivos propuestos, es necesario establecer una metodología clara
+sobre cómo abordar la obtención del conocimiento. Siguiendo, claro
+está, un método científico.
+
+Si estamos tratando de una investigación que pretende averiguar {}``usos''
+y {}``representaciones'' a través del discurso de los inviduos y
+la observación de sus prácticas, estamos hablando de una investigación
+cualitativa. Por el fenómeno a investigar, me parece apropiado un
+enfoque etnográfico. La etnografía pretende {}``interpretar/describir
+una cultura para hacerla inteligible ante quienes no pertenecen a
+ella'' \citep[pág. 7]{Guber}.
+
+La etnografía es un método surgido en la antropología, y utilizado
+durante el siglo XIX para la descripción de culturas {}``exóticas.''
+Años después se le harían críticas colonialistas a la antropología,
+por lo que la etnografía se ha ido transformando. Con los años ha
+adoptado posturas críticas y reflexivas hacia sí misma \citep{Fabian1983,Evans-Pritchard1990,Harris2001}.
+Esta perspectiva ha sido utilizada antes para estudiar a los \emph{hackers}
+\citep{Meyer1989,Contreras2004,Coleman2010,On2010}.
+
+Establecido esto, hay que puntualizar que la naturaleza del fenómeno
+evita un muestreo aleatorio. Los \emph{hackers} no se encuentran catalogados
+en ninguna base de datos, no hay forma de asegurar una muestra representativa
+numéricamente. Hay que tomar otro camino.
+
+Algunos interactúan principalmente por Internet, pueden tener una
+crecida lista de contactos, pero en su ciudad nadie los conoce. No
+todos asisten a reuniones, no todos entran a los mismos foros, no
+todos se encuentran en las mismas salas de charlas y no todos están
+dispuestos a admitir que son \emph{hackers} en público. Muchas de
+estas actividades son secretas. Todo esto implica dificultades metodológicas
+para seleccionar informantes. ¿Cómo resolverlo?
+
+El primer paso es determinar nuestro universo, la totalidad de lo
+que queremos estudiar, para luego hacer una selección más fina para
+su estudio minucioso.
+
+
+\subsection{Universo}
+
+Las reuniones\emph{ hacker} públicas normalmente buscan la difusión
+para incrementar su asistencia. Por tanto, cualquier persona es bienvenida
+y el supuesto es que se va a compartir información. Entre mayor cantidad
+de gente asista, el intercambio de información y la interacción podrá
+ser mayor. Para facilitar esto, todas poseen alguna plataforma en
+Internet para coordinar y comunicar: Blogs, foros, listas de correo,
+wikis, etc.
+
+Para encontrar estas reuniones recurrí a búsquedas en los siguientes
+sitios:
+\begin{APAitemize}
+\item Google: Intenté varias combinaciones de palabras con las ciudades
+y el tipo de reunión, hasta que aparecieron algunos resultados.
+\item Listado oficial de reuniones 2600: La revista newyorkina tiene en
+línea una lista de las reuniones oficiales activas en todo el mundo.
+(http://www.2600.com/meetings/mtg.html).
+\item Hackerspaces.org: Esta página contiene un listado de todos los \emph{hackerspaces}
+registrados del mundo, así como su ubicación geográfica y vínculos
+a sus páginas oficiales.
+\item San Diego Tech Scene: Se trata de una página que concentra en un calendario
+todas las reuniones relacionadas con tecnología de la ciudad de San
+Diego. Mantiene asimismo un listado de los grupos activos en la localidad.
+(http://www.sdtechscene.org/).
+\item Facebook: También lancé algunas búsquedas de grupos a través de Facebook
+pero no arrojaron ningún resultado. Por lo que he observado, este
+medio no es muy utilizado por los \emph{hackers} debido a cuestiones
+de privacidad.
+\end{APAitemize}
+Después de hacer estas búsquedas, se produjeron los siguiente resultados
+relevantes. En Mexicali he logrado identificar las siguientes reuniones:
+\begin{APAitemize}
+\item Insomnia LAN party: Se reúnen un sábado de cada mes en un domicilio
+particular. Normalmente cobran 50 pesos por asistente. El único requisito
+es llevar un cable de red para conectar la computadora (http://insomnialan.info/).
+\item Skip LAN party: Se reúnen un sábado de cada mes en un domicilio particular
+o en un cibercafé. También cobran una cuota de 50 pesos y piden un
+cable de red cuando no se realiza en cibercafés (http://skipclan.netai.net/).
+\item mxlOpenSource: Es un grupo de reciente creación en donde se discuten
+tecnologías \emph{open source} y se ofrecen pláticas sobre cómo utilizarlas
+(http://mxlopensource.org/).
+\end{APAitemize}
+En Tijuana he identificado las siguientes reuniones:
+\begin{APAitemize}
+\item GUL Tijuana: Es un grupo de usuarios de Linux. Se reunen ocasionalmente,
+se organizan para ofrecer conferencias y organizar {}``Install fests''
+en donde se instala Linux a los usuarios que lo deseen. (http://www.gultij.org/)
+\item LAN party TJ: No me he acercado a ellos todavía, por lo que no poseo
+mucha información (http://www.lantj.com/).
+\end{APAitemize}
+En Ensenada se encuentran las siguientes reuniones:
+\begin{APAitemize}
+\item Bajhack: Un \emph{hackerspace} que tiene reuniones todos los miércoles
+a las 6:30 pm. (http://bajhack.com/).
+\item NorteLab: Un colectivo que organiza talleres y cursos, situado en
+el Centro Estatal de las Artes de la ciudad (http://www.miguelmonroy.com.mx/wiki/index.php?title=P\%C3\%A1gina\_Principal).
+\end{APAitemize}
+En San Diego he identificado las siguientes reuniones:
+\begin{APAitemize}
+\item SD2600: La reunión oficial 2600 de la ciudad, que lleva realizándose
+15 años. Se reúnen los primeros viernes de cada mes en una pizzería
+llamada Regents en La Jolla (http://san2600.org/).
+\item San Diego Hacker News meetup: Es una reunión de lectores de la página
+Hacker News. Se reúnen el último viernes de cada mes en un café llamado
+Broadway (http://cses.ucsd.edu/wiki/index.php/San\_Diego\_Hacker\_News\_Meetup).
+\item San Diego Hackerspace: No se trata de un hackerspace en la definición
+tradicional del término, es decir, un lugar destinado para la práctiac
+\emph{hacker}. Es una reunión que se lleva a cabo el segundo y cuarto
+viernes de cada mes en un café llamado Libertalia (http://groupspaces.com/SanDiegoHackerspace/).
+\end{APAitemize}
+Es notable que en el condado de Imperial no ha aparecido ninguna reunión
+ni grupo relacionado a tecnología. Incluso algunos asistentes a la
+reunión mxlOpenSource trabajan en Imperial y me comentan que tampoco
+han encontrado nada.
+
+Martínez Migueles \citeyearpar{Miguelez2006} afirma que hay situaciones
+en donde se pueden buscar {}``casos representativos.'' No es lo
+mismo, por ejemplo, entrevistar al organizador de una reunión 2600
+que a alguien que asiste dos veces al año. Es por ello que pretendo
+escoger casos representativos basándome en su participación en los
+grupos.
+
+
+\subsection{Técnicas}
+
+La etnografía se concreta a partir de varias técnicas. Una de las
+técnias por excelencia es la observación participante \citep{Miguelez2006},
+en donde el investigador interactúa con los individuos en escenarios
+específicos en donde se busca {}``implicarse en actividades concernientes
+a la situación social a estudio, y observar a fondo dicha situación''
+\citep[pág. 150]{Valles1999a}. El observador se encuentra en la curiosa
+situación de ser a la vez miembro del grupo y extraño, por lo que
+debe aplicar su introspección como instrumento de investigación social.
+
+La observación participante \citep{Valles1999a,Flick2004} revelará
+quiénes son los individuos más activos dentro de las reuniones bajo
+los criterios de asistencia, participación, y se hará una selección
+representativa de varios informantes a quienes se les aplicará una
+entrevista a profundidad \citep{Miguelez2006,Valles1999a} para obtener
+datos para el análisis.
+
+La observación deberá incorporar también el componente virtual. Como
+se ha mencionado, todos estos grupos poseen plataformas en Internet
+donde la interacción trasciende las reuniones presenciales y se prolonga
+a través de medios digitales. Un método apropiado para este tipo de
+observaciones se ha venido gestando y es llamado {}``ciberetnografía''
+\citep{Coleman2010,Rybas2007,TORRES2008}. En este caso s
+
+
+\subsection{Categorías de análisis}
+
+Las técnicas recopilarán datos cualitativos que deberán ser analizados
+en base a los objetivos específicos. Cada uno de estos objetivos específicos 
+
+Objetivo específico: Analizar las prácticas\emph{ hacker} de individuos
+en la zona fronteriza de las Californias.
+
+Categorías de análisis: Práctica \emph{hacker}.
+
+Observables: Actitud politizada frente a la tecnología, Principios
+liberalistas, Actitud que afecta la confidencialidad, Componente lúdico,
+Legalidad/Ilegalidad.
+
+Objetivo específico: Determinar las posturas frente a la tecnología
+de los individuos que realizan prácticas hacker.
+
+Categoría de análisis: Uso social de la tecnología.
+
+Observables: Uso planeado de la tecnología, reinvención creativa,
+transgresión de licencia de uso.
+
+Objetivo específico: Comprender políticamente los usos sociales de
+la tecnología.
+
+Categoría de análisis: Poder.
+
+Observables: Propiedad intelectual, legitimidad, autoridad, acceso
+a la información.
+
+
+\section{Avances}
+
+Durante el primer año de esta investigación se han realizado actividades
+en diferentes rubros encaminadas a la planeación y realización de
+esta investigación. Mencionaré brevemente cuáles han sido estas actividades
+para hacer una autoevaluación del trabajo realizado.
+
+
+\subsection{Bibliografía}
+
+Se realizó una extensa búsqueda de bibliografía sobre el tema, en
+bibliotecas e Internet. Como ya se trató en el apartado correspondiente,
+se hizo una revisión minuciosa de la relevancia y pertinencia de cada
+uno de los textos.
+
+Este fue quizá el avance más significativo para la investigación,
+ya que debido a la escasa bibliografía existente, se pudo conseguir
+la mayor parte del material. Además, en ninguno de los trabajos existentes
+sobre \emph{hackers} he visto un análisis del estado del arte que
+abarque tantos trabajos y Aún así, quedan pendientes de revisión los
+siguientes textos: 
+\begin{APAitemize}
+\item \emph{Legal analysis of electronic bulletin board activities} \citep{Soma1984}.
+\item \emph{Fear and loathing in the secret service: A synopsis of GURPS
+cyberpunk} \citep{Thomas1990}
+\item \emph{The Heroic Hacker: Legends of the Computer Age \citep{Brunvand1996}.}
+\item \emph{Hacking L.A.: exploring Los Angeles digital underground}\citep{Thomas1998}.
+\item \emph{Hackers} \citep{Taylor1999}.
+\item \emph{Hacking cyberspace \citep{Gunkel2000}}
+\item \emph{The hacker diaries: Confessions of teenage hackers} \citep{Verton2002}.
+\item \emph{A site where hackers are welcome: Using hack-in contests to
+shape preferences and deter computer crime} \citep{Wible2003}.
+\item \emph{Why hackers do what they do: Understanding motivation and effort
+in Free/Open Source Software projects} \citep{Lakhani2003}.
+\item \emph{War, peace, or stalemate: Wargames, wardialing, wardriving,
+and the emerging market for hacker ethics} \citep{Ryan2004}
+\item \emph{BitTorrent: Digital river of the hacker culture} \citep{Eubanks2005}.
+\item \emph{Wargames: Hackers are gaming} \citep{Hunger2005}.
+\item \emph{Meanings that hackers assign to their being a hacker} \citep{Turgeman-Goldschmidt2005}
+\item \emph{Three ethical moments in Debian} \citep{Coleman2005a}.
+\item \emph{The economics of computer hacking} \citep{Leeson2006}.
+\item \emph{Lingo, Loyalty, \& Lambaste: The E-Zines of the Early French
+Hacker Scene} \citep{Gotkin2010}.
+\end{APAitemize}
+
+\subsection{Trabajo de campo}
+
+Desde el 4 de diciembre de 2010 inicié el trabajo de campo exploratorio
+para hacer observación y establecer contactos en diferentes grupos.
+Como esto lo inicié en etapas muy preeliminares de la investigación
+al principio no estuvieron los objetivos del todo claros. Sin embargo,
+todo este trabajo ayudó a formar una idea clara sobre lo que podía
+esperar de la investigación. Me ayudó a delimitar el tema, a establecer
+objetivos, a contrastar la teoría con la realidad, aunque tan sólo
+de manera exploratoria.
+
+También se llevó un diario de campo en donde se anotaron las experiencias
+y reflexiones obtenidas, para llevar un registro y poder notar patrones
+o continuidades. También se hizo registro fotográfico y de audio en
+algunas ocasiones. A continuación se listan las actividades realizadas
+con su fecha correspondiente:
+\begin{APAenumerate}
+\item 4 de diciembre de 2010: Asistencia a {}``Insomnia LAN party'' en
+Mexicali, Baja California.
+\item 8 de diciembre de 2010: Observación participante en un canal de IRC
+con motivo de un ataque de \emph{Anonymous} a Paypal.com con motivo
+de la extradición de Julian Assange.
+\item 12 de diciembre de 2010: Observación participante en un canal de IRC
+con motivo de un ataque de \emph{Anonymous}.
+\item 2 de enero de 2011: Asistencia a {}``Skip LAN party'' en Mexicali,
+Baja California.
+\item 12 de enero de 2011: Asistencia a {}``Insomnia LAN party'' en Mexicali,
+Baja California.
+\item 4 de febrero de 2011: Asistencia a la reunión 2600 de Phoenix, Arizona.
+\item 19 de febrero de 2011: Asistencia a {}``Skip LAN party'' e {}``Insomnia
+LAN party'' en Mexicali, Baja California.
+\item 20 de febrero de 2011: Entrevista con John Draper, alias \emph{Captain
+Crunch}, via Skype.
+\item 2 de marzo de 2011: Asistencia a la reunión 2600 de San Diego, California.
+\item 7 de marzo de 2011: Entrevista presencial con un informante en Mexicali,
+Baja California.
+\item 31 de marzo de 2011: Asistencia a reunión mxlOpenSource en Mexicali,
+Baja California.
+\item 2 de abril de 2011: Asistencia a {}``Insomnia LAN party'' en marco
+del evento Gamacon en Mexicali, Baja California.
+\item 18 y 19 de abril de 2011: Asistencia a las dos primeras sesiones del
+taller {}``Electrónica para artistas'' organizado por el colectivo
+NorteLab en Ensenada, Baja California.
+\item 28 de abril de 2011: Asistencia a reunión mxlOpenSource en Mexicali,
+Baja California.
+\end{APAenumerate}
+En lo particular, este trabajo de campo me ayudó a contrastar mi experiencia
+personal con la realidad actual. Recordemos que no había participado
+en actividades \emph{hacker} desde hace bastantes años. Por otra parte,
+también verificar si los autores que iba leyendo tenían correspondencia
+con mi entorno y, por último, para calcular cuales serían las herramientas
+teóricas y metodológicas apropiadas para estudiar este fenómeno.
+
+
+\subsection{Apartado teórico-metodológico}
+
+Reconozco que el apartado metodológico especialmente tiene carencias
+importantes. Esto se debe a la cantidad de tiempo empleado en la revisión
+de la bibliografía y al trabajo de campo. 
+
+
+\section{Anexos}
+
+
+\subsection{Entrevista con informante, 7 de marzo de 2011}
+
+Se llegó al informante por recomendación de varios miembros asistentes
+a \emph{LAN parties}. Cuando les pregunté si conocían algún \emph{hacker},
+todos lo mencionaron a él como referente. Tuve la oportunidad de conocerlo
+brevemente en un proyecto de la creación de un portal web en el cual
+participé. Aunque el proyecto nunca se llevó a cabo, le planteé la
+posibilidad de entrevistarlo ya que mencionó que lo \textquotedblleft{}corrieron\textquotedblright{}
+de la universidad por \textquotedblleft{}actividades \emph{hacker}.\textquotedblright{}
+Lo volví a encontrar el cuatro de diciembre de 2010 en Insomnia LAN
+party. De ahí obtuve su dirección de correo electrónico y tiempo después
+se pude efectuar una cita para entrevista. 
+
+El informante tiene treinta y tres años, es de sexo masculino y vive
+en la ciudad fronteriza de Mexicali. Aseguró que el día de la cita
+sería entrevistado también por otras dos personas. Una entrevista
+giraría en torno a la \textquotedblleft{}ingeniería social\textquotedblright{}
+y la otra sobre \textquotedblleft{}organización de eventos culturales.\textquotedblright{}
+La entrevista se realizó el 7 de marzo del 2011 en el estudio de diseño
+gráfico y soporte técnico del informante. Duró una hora con cuarenta
+y siete minutos. La registré mediante una grabadora de audio y realicé
+notas en mi libreta. Tomé algunas fotografías del lugar.
+
+En el lugar se encontraba otra persona conocida del informante trabajando
+en la computadora mientras hablábamos, hasta que se despidió silenciosamente.
+Posteriormente llegó su novia, quien se mantuvo ocupada en una computadora
+al fondo y participó en algunas de las últimas preguntas de la entrevista.
+En la transcripción presentamos los primeros treinta minutos de la
+entrevista. El objetivo de presentar este anexo es mostrar el tipo
+de datos recopilados hasta el momento en la investigación.
+
+
+\subsubsection{Guión de entrevista}
+
+Debido a lo poco que se sabía del informante la entrevista tuvo como
+principio el eje exploratorio. Guiándome con los objetivos de esta
+investigación para ir vinculando los temas y obtener un sondeo mucho
+más amplio del resto de las actividades, con el objetivo de obtener
+información pertinente para la investigación. Las preguntas generales
+que guiaron la entrevista fueron las siguientes:
+\begin{APAitemize}
+\item ¿Cuál fue su primer acercamiento con la tecnología y cuál fue la motivación?
+\item ¿En qué actividades hacker se ha visto envuelto?
+\item ¿Cuáles eran los usos que dió a tales prácticas?
+\item ¿En qué contexto de su vida las utilizó y por qué?
+\item ¿Cuál ha sido su relación con el trabajo remunerado?
+\end{APAitemize}
+
+\subsubsection{Transcripción}
+
+Notación: 
+\begin{APAitemize}
+\item Entrevistador (E) 
+\item Informante (I)
+\end{APAitemize}
+I: ¿Quieres que empiece por el lado \emph{geek}, acá, o...?
+
+E: Pues, lo que te nació primero.
+
+I: Pues fue el lado \emph{geek}, de hecho, o sea....
+
+E: ¿Si? A ver, ¿cómo? ¿Por qué dices eso?
+
+I: Por que en base a lo \emph{geek} es cuando te empieza a entrar,
+así que como que la cosquillita, acá... En base a algún problema,
+o sea, más o menos me refiero en particular o en plural, hablar de
+todos los \emph{hackers} que he visto o he entrado a sus portales,
+o he conocido por Internet, es el de, por ejemplo... Siempre pasa
+algún problema. Este es un problema interno, social o familiar.
+
+E: ¿Con quién?
+
+I: Eh... Puede ser con alguna amistad...
+
+E: Pero, pero... Pasa un problema dices, pero...
+
+I: Con uno mismo, que te sientes rezagado, pues. Entonces en base
+a eso, él empieza como que a canalizar ese tipo de sentimientos, ese
+tipo de presión en algo... en algo que tú puedas crear. O sea, ¿si
+me entiendes? Más o menos he platicado con algunas personas que por
+ellas he aprendido cosas de ellos. Y ellos empezaron por algo así,
+o sea, empezaron a canalizar. Y decían: No, pues, canaliza, mira.
+Muchas veces no sabes hacer nada desde un principio, o sea lo tienes
+como que, te sientes capaz de crear algo desde el principio. A menos
+de que estés como en el...
+
+\emph{(Suena el celular con una canción de Daft Punk)}
+
+E: ¡Ey! esa la venía escuchando ahorita. \emph{(Risa)}
+
+I: ¿Qué onda? Sí... ando aquí en el estudio no sé si quieras venir.
+Ando en unas... Me andan entrevistando aquí y voy a apagar el celular...
+Un trabajo, OK...\emph{ (Al entrevistador)} ¿De qué es? De la univ...
+\emph{(Al celular)} Un trabajo de \emph{hackers} y\emph{ geeks}...
+Vente para acá y orita vemos... OK, al rato, bye... Deja lo apago...
+
+E: ¿No te puedes poner un poquito más cerca del micro? Por que no
+sé si se alcance a escuchar hasta acá. Creo que sí, pero por si acaso.
+No traje otra grabadora, iba a traer dos.
+
+\emph{(Se cambia de lugar)}
+
+E: OK, decías que... Como que canalizar eso.
+
+I: Ajá, o sea, canalizas eso. Un problema interno que tú tengas. Por
+lo general es... es... Siempre es un problema... Empieza por algo
+emocional.
+
+E: Ajá, ¿y cuál era tu problema?
+
+I: En aquel entonces, este... Cuando decidí, así, meterme en ese área...
+
+E: ¿Como cuándo? Dices \textquotedblleft{}en ese entonces\textquotedblright{}.
+¿Como cuándo fue?
+
+I: Eh... Fue como en el... noventa y... noventa y ocho, más o menos.
+Noventa y siete, noventa y ocho. De hecho fue en el noventa y siete,
+fue cuando recién entré a la universidad. Este... Ah... conocí una
+muchacha. De hecho fue como cinco años más grande... Era cinco o seis
+años más grande que yo, tenía unos veinticuatro, por ahí. Y me acuerdo
+de que usábamos el BBS, este... En la, en la... biblioteca.
+
+E: ¿Cuál BBS?
+
+I: ¿El BBS?
+
+E: Ajá, ¿Cuál?
+
+I: El de la... Usamos el del CETYS, que hasta la fecha lo hemos mantenido
+activo.
+
+E: Ah, ¿tú también?
+
+I: Si, ahí estoy todavía. Está la Meloncita...
+
+E: Por que nunca me tocó realmente me tocó usar un BBS.
+
+I: ¿No? Es por medio de Telnet. Usas la aplicación Telnet.
+
+E: Sí lo he visto, pero nunca lo he usado yo. Lo he visto que lo usan.
+
+I: Es OPEN espacio baja bbs punto... homelinux punto net.
+
+E: ¿Open Baja?
+
+I: OPEN. Es OPEN... En el Telnet, OPEN, espacio...
+
+E: ¡Ah! Ah, OK. Baja.
+
+I: Ajá, espacio, Bajabbs, punto homelinux punto net. Deja ahorita
+lo checo. (Quita a alguien de la computadora para mostrar).
+
+I: Si sabes correr Telnet, ¿veá?
+
+E: ¿Qué? Sí, sí.
+
+I: OK, es OPEN bajabbs.homelinunx.net... No, anda apagado ahorita.
+
+E: ¿A veces lo apagan?
+
+I: Si. Es raro pero... pero sí. De hecho, ¡ah!, Pues te decía de esta
+persona. Me acuerdo que estábamos en la biblioteca y ella por medio
+del BBS... Mmm... En ese entonces no entendía muy bien lo que ella
+hacía. El BBS pues lo usábamos para comunicarnos, este, era algo así
+como el messenger, en DOS viejito. Eh... Pues a mí se me hacía como
+que la maravilla de estarte comunicando, por que ella se comunicaba
+con personas de otros, de otros... países, y pues por medio de ella
+lo empecé a aprender, a meterme al BBS. Ya después vi que ella corría
+algunos scripts hechos por ella, cuando me di cuenta de que ella comenzó
+a programar, que empezaba a modificar el código en BBS y podía accesar
+hasta el... hasta el sistema de bases de datos de la biblioteca y
+modificar... de modificar sus libros.
+
+E: Órale.
+
+I: O sea, si ella tenía un libro lo quitaba. Tonces yo decía: \textquotedblleft{}¡Aaah!\textquotedblright{},
+dije. Pues me quedé así como que: \textquotedblleft{}¡Wow!\textquotedblright{}.
+En eso, este, en aquel tiempo pues el Internet apenas estaba llegando,
+el Internet gráfico. Que estaba Netscape Navigator, las primeras versiones,
+y el Internet Explorer. Cuando empezó al siguiente año a modernizarse
+un poco más, eh, te dan un poco más de accesos. O sea, ya meter en
+las páginas lo que era HTML y todo ese tipo de... de cuestiones ya
+más gráficas, eh, pues ahí empezó como que a divulgarse cierta información.
+No había tantas protecciones como ahora. En base a eso, pues era más
+fácil...
+
+E: Cierta información, ¿cómo de qué?
+
+I: Eh... Información para accesar a bases de datos, de algunas compañías
+y escuelas y ajá. Cuando recién empezó a andar el Internet. Este,
+la muchacha esta, pues, se la pasaba buscando ese tipo de, de información.
+Me empezó ya a llamar, así, a pegar la cosquillita de por qué, cómo
+hacía estas cosas. Y ella a veces pues ahí se sentaba a un lado de
+mí y me decía \textquotedblleft{}no, has esto, has esto\textquotedblright{}.
+Y a veces yo le decía: ¿Sabes qué? No, pues igual, o sea, estoy estudiando
+una carrera similar a lo que ella hace, entonces dije, pues de aquí
+aprendo algo. Y sí, me enseñó algunas cosillas y yo ahí fue cuando
+dije, ¿sabes qué? Pero es que no me gusta programar. O sea, tengo
+la lógica y todo eso, pero a veces el, así, estarme aprendiendo el
+código... Mi mente siempre se viajaba en otra cosa, o sea... Siendo
+ingeniero mi mente siempre fue más artística. Tonces me gustaba un
+chorro el arte, desde entonces, o sea... Me gustaba... Siempre me
+ha gustado dibujar, pintar y ese tipo de cuestiones. A lo de que ahí
+empecé a... a manipular ambas, a hacer, pues, algunos proyectos diferentes.
+
+E: Ajá, pero a ver... a ver... Ya te fuiste por otro lado. Sí es interesante,
+pero me dejaste muchas dudas.
+
+I: OK, volviendo ahí con ella. Eh... Esta persona, hubo un momento
+en que... se portó muy obsesiva al momento de yo estar ahí con ella.
+Y como que se agarró un... agarramos un sentimiento, acá, pero yo
+nunca.
+
+E: ¿Obsesiva cómo? ¿Sobre qué?
+
+I: Como que siempre me quería tener ahí, que yo aprendiera, o no sé...
+
+E: ¿Y ella estudiaba algo relacionado con computadoras o algo de...?
+
+I: Creo que estaba en la carrera y la expulsaron, o no sé, o salió.
+Eh... Su nombre es Elisa, este... No te puedo decir sus apellidos
+pero... Este... nunca le pregunté, por ende que siempre la miraba...
+
+E: ¿Por qué se salió?
+
+I: Ajá, o sea, entonces... Eh... Yo siempre la miraba... Lo que sí
+me decían es que no había terminado la carrera, luego me enteré con
+otras personas. Eh... Después ella empezó a ser como que más posesiva
+conmigo, a querer estar como en una relación. Nos empezamos a agradar
+pero ella lo tomó como que así, o sea: \textquotedblleft{}O eres mi
+novio o ya no te enseño, ¿qué onda?\textquotedblright{}. Tonces de
+ahí fue el pique y le dije: \textquotedblleft{}No, pues...\textquotedblright{}
+
+E: ¿Y tú no querías?
+
+I: Yo en ese momento no, no quería tener una... como que una relación.
+Estaba bien la muchacha y todo eso, pero la verdad yo estaba, pues,
+puestos los ojos en otra persona en ese entonces. Tonces, como que
+se dio cuenta, y como que ya de ahí empezó lo brusco ahí de la relación.
+Y cuando yo iba a querer aprender más como que ya se portaba medio
+acá... Me bloqueó del BBS. De repente de ahí yo me agarré, empecé
+a leer, empecé a desbloquear lo que ella hacía, este... Accedí al
+sistema de la biblioteca y le... también cosas que ella no me empezó
+a enseñar que yo las empecé a aprender, pues, de alguna u otra forma,
+eh... Aunque yo empecé con la ingeniería social. O sea, me empezaba
+a meter por un lado, conocer a la persona que tenía ese tipo de accesos...
+
+E: Ajá, ¿como los de la biblioteca o algo así?
+
+I: Ajá, los de la biblioteca. Tonces por ese lado ella vio que, que
+le dije: \textquotedblleft{}Yo no ocupo programar así como tú...\textquotedblright{}
+O sea, yo con pura ingeniería social empecé a obtener la información
+que yo quería. Que yo creo que es la base... Es la base de la técnica
+del \emph{hacker}: Ser un perfecto ingeniero social. Por que en base
+a eso el puede crear algún \emph{script} o algo en el cual pueda la
+persona caer para así obtener la información sin que se dé cuenta.
+Este, siempre se empieza por dialogar hasta manejar un \emph{script
+}que se disfrace de algo, como un \emph{exploit} o algo, para hacer
+caer a las personas. Tonces, este, esto del...
+
+E: ¿Dices un \emph{script}, como...?
+
+I: Un código, un código.
+
+E: Si, pero... pero como algo... ¿como esas pantallas falsas que tú
+dices?
+
+I: Ajá, ese es un \emph{exploit} y eso parte de la ingeniería social.
+Es hacerte creer algo que... que... que... que es re... que existe,
+que es algo... que es algo confiable como estuvo de moda el \emph{script}
+este del... del de Hotmail. Que te mandaba la pantalla del Hotmail...
+del Messenger, perdón, y de repente te lo mandaba de alguna dirección
+IP igual falsa o autenticada como quieras, depende cómo se quería
+proteger la persona para no darse a conocer. Este, por mediante un
+servidor proxy manejando una dirección ahí en China, o no sé, equis,
+eh... que fue lo más, o sea, como que se inició, pues, o sea, el tipo
+de ataques. Muchas personas aquí que han obtenido contraseñas de Hotmail
+lo hacen por medio de esos programas, o \emph{exploits} se les dice,
+este, que se disfrazan de alguna aplicación, tonces, ya cae la persona,
+o sea, te dice \textquotedblleft{}¿sabes qué? Mete tu usuario y contraseña\textquotedblright{}
+y en ese momento te dice el programa: \textquotedblleft{}¿Sabes qué?
+Metiste la contrasella errónea\textquotedblright{}. ¡Toma, acá! O
+sea, \textquotedblleft{}Vuélvela a escribir\textquotedblright{}, y
+en ese momento pues dices: \textquotedblleft{}Pues, ¿qué onda? Yo
+la metí bien, acá\textquotedblright{}. Ya la vuelves a meter, ya...
+ya el programa falso ya se cierra, se manda la contraseña por... por
+correo. Por el servicio de SMTP, perdón, y llega a un correo real
+que es el del atacante. Tonces, así es como empezó a funcionar, por
+medio de ingeniería social, este tipo de programas, o scripts, o códigos,
+que son a base de ingeniería social. Es engañar a la persona.
+
+Aunque si conozco, de repente, que hay personas que tienen un buen
+grado de... de conocimientos que ellos ya manejan por medio de códigos,
+es decir, por medio de algún puerto, este, consiguen tu dirección
+IP y empiezan a meter alguna aplicación, este, por alguna VPN, algún
+sniffer, cualquier tipo de aplicación que te de acceso a... a su computadora.
+Y, pues, ahí es donde empezaron a hacer los\emph{ firewalls}, los
+cortafuegos. Que es lo que, en verdad, pues eso hacen, proteger este
+tipo de puertos, o de... de canales ocultos, dentro del Internet o
+dentro de la computadora.
+
+Y pues, tomando el tema de como inicié ahí, pues entonces yo empecé
+más por la ingeniería social. De repente, dependiendo del estado de
+ánimo, pues ahí nos llevamos mal, empezamos a pelear como \emph{(Intelegible)}.
+Y yo, pues me saqué de onda, y ya le tumbé el rollo y yo seguí, yo
+seguí en la escuela. A lo cual una vez, este, se me ofreció la oportunidad
+de accesar desde la máquina de un maestro, interno, y empecé a jugar
+con ese tipo de aplicaciones dentro de la escuela. Eh... Checando
+que no tenían muy buena seguridad en aquel tiempo, pues me basé en
+eso para facilitar el acceso. Tonces, eh, se empezaron a conocer lo
+que eran los \emph{keyloggers}, grababan todo tipo de información.
+A base de eso, eh, pues la escuela usaba un programa llamado \textquotedblleft{}\emph{Reflection}\textquotedblright{}
+que es con el que metían las calificaciones, eh, modificaban horarios,
+equis. Un programa hecho... corría en DOS, ya más visual, fue mejorando.
+Pero te dejaban jugar con los puertos, el programa.
+
+E: ¿Con los puertos?
+
+I: Ajá, con los puertos de accesar aquí uno o al otro. Lo único que
+tenía que entrar era como que donde se guardaban las claves, entrar
+al servidor y de ahí atacar. Una vez por medio de una aplicación,
+manejé un archivo por lotes a través de \textquotedblleft{}Windows\textquotedblright{}
+para poder mandar y que me dejara el paquete del... del... de donde
+contenía las claves y usuarios de los maestros para dar altas y bajas
+y calificaciones y todo ese rollo. Tonces, ahí fue la primera vez
+donde dije \textquotedblleft{}wow!\textquotedblright{} o sea, no sabía
+que podía hacer eso. Y fue código sencillo, o sea, no me gusta programar
+pero en base a lo que uno quiere, pues ahí le rasca hasta que le encuentra.
+Tons de ahí empecé, y cuando, empecé a manipular el sistema de calificaciones
+de la escuela.
+
+E: ¿Ah, sí? ¿Y qué llegaste a hacer?
+
+I: Cambiar las calificaciones. Claro, no cambiaba las mías, pero de
+repente compañeros...
+
+E: ¿Pero esto fue de la universidad?
+
+I: Si.
+
+E: Ah, es que de repente no me quedó claro. Pensé que seguías hablando
+como de... ¡Ah! Por qué...
+
+I: Estoy hablando de la universidad.
+
+E: Ah, OK. Pensé que como estabas en el BBS del CETYS, pensé que esta
+persona era del...
+
+I: Ajá, de hecho el servidor del CETYS se creó pues en un BBS para...
+era lo bueno que tenía yo creo en aquel tiempo, entonces el CETYS
+para poderse comunicar a otras partes. Que yo creo que ese sistema
+lo usaban ellos también, o sea, empezaron con esos temas. Algo muy
+adelantado, yo creo, por que la universidad no lo tenía, pues. La
+universidad lo pudo haber tenido, pero pues nunca lo creo. Y si lo
+tuvo, pues nunca conocí de tal BBS. Desde la universidad yo siempre
+entraba al del CETYS, que ahí fue donde yo aprendí.
+
+E: OK. Entonces entrabas a este sistema y cambiabas esas calificaciones,
+¿como para qué?
+
+I: Nomás. Para saber si realmente funcionaba lo que estaba haciendo,
+pues. Y sí, unos compañeros me buscaron y supieron lo que había hecho.
+Em\ldots{} la verdad yo no supe cómo se enteraron yo traté de cómo
+no dejar ese rastro. Este...
+
+E: ¿No le dijiste a nadie?
+
+I: No le dije a nadie. Más bien como lo hice desde la compu de una
+maestra y la maestra tenía a varios prestadores de servicio yo creo
+que uno de ellos se dio cuenta. En algún momento que yo dejé abierto,
+no sé, que fue lo que yo creo que pasó, y en base a eso pues se dieron
+cuenta que era yo, pues porque a esas horas estaba yo y el programa
+a veces si lo dejé abierto, ese fue mi error.
+
+E: OK. ¿En ese entonces tú estabas en la universidad? ¿En que carrera
+o qué ibas? 
+
+I: Computación.
+
+E: ¿Y en qué semestre estabas?
+
+I: Estaba como en tercero o cuarto.
+
+E: ¿Entonces estabas haciendo el servicio?
+
+I: Ah, no tanto el servicio. Estaba dándole el soporte a una computadora
+de una maestra. Que igual, es muy amiga mía, pero pues igual, después
+yo le comente a la maestra que había hecho y si se dieron cuenta del
+servidor que había, se habían hecho cambios a horas que no son. Por
+eso la universidad ahora, eh, protege eso con los maestros en que
+les da cierto tiempo para que ellos den de alta su usuario y el cambio
+de calificaciones... se cierra el sistema y ya no les permite hacer
+nada. En base a ese tipo de ataques. Tonces como se hicieron en fechas,
+pos, o sea, que no eran todavía... O sea como vas a tener, o sea,
+¡puta! el error de principiante, de como vas a tener una calificación
+ya... dada de alta si todavía no pasas...
+
+E: No se acababa el semestre.
+
+I: No se acababa el semestre, pues. O una calificación, o sea, cómo
+la dabas de alta para después sumarla. Cosas que, pues, en ese entonces
+no las canalizaba, no las analizaba. Simplemente se te iban, son errores
+tontos que por lo cual caes. En base a eso pues se dieron cuenta,
+se metieron en un problema y pues dije: ¿Sabes qué? la maestra no
+tiene la culpa, fui yo.
+
+E: ¿La maestra se metió en un problema? 
+
+I: Aja, pues sí, por que fue hecho desde su computadora.
+
+E: Ah, OK.
+
+I: Entonces ahí fue donde yo dije qué fue lo que pasó. 
+
+E: ¿Sospechó que fuiste tú?
+
+I: Pues sí, yo le dije realmente: {}``Yo fuí, yo no quiero mal entendidos,
+simplemente estaba viendo que se podía hacer, jugando entre eso si
+igual metiéndome a ver que tanto podría hacer.'' En base a eso, pues,
+este, pues si, me corrieron.
+
+E: ¡Ah! ¿Eso fue por lo que te corrieron?
+
+I: Si, pues es, este\ldots{} en base a eso poco después este\ldots{}
+me empecé a engranar, a veces si mandaba ataques al sistema de servicios
+de la universidad, de la subasta de materias cuando te ibas a dar
+de alta. A veces no funcionaba ese sistema, pues había formas de saturarlo.
+Muy sencillo no tenía mucha reserva para memoria caché o conexiones,
+lo cual no se\ldots{} la universidad nunca miro más allá de ese tipo
+de problemas.
+
+E: ¿Cómo que no miró más allá?
+
+I: El exceso de conexiones, ajá, para poder albergar tantas direcciones
+IP, de tantos alumnos para poder darse de alta al mismo tiempo. La
+universidad empezó a manejarlo por tiempos. Pero aún así, si tu saturabas
+ese tráfico, pues tumbabas el sistema. Y que más que hacer un archivo
+por lotes mandando algún documento que se esté saturando entre lo
+que esté recibiendo y lo esté botando. En base a eso pues son programas
+básicos por DOS que se hacen. Este, ese tipo de archivos los aprendí
+a hacer, me acuerdo que cuando estaba en Internet, los emuladores
+de los videojuegos, este, había un emulador muy bueno que era el Neo-Geo
+de maquinitas. Entonces en base a eso tu tenías la aplicación y tenías
+el ROM, el archivo para poder correr cada juego, y tu tenías que crear
+un archivo por lotes para hacer... mandar llamar el ROM por medio
+de la aplicación y bla, bla, bla. En base a esa lógica dije: Si esto
+lo puedes hacer así pero mandarlo no a otra aplicación sino a un puerto
+donde puedas sacar, ¿qué pasa? Saturas y truenas todo. Entonces\ldots{} 
+
+E: ¿Y lo hiciste desde una sola computadora?
+
+I: Sí, desde una sola computadora. Me acuerdo que\ldots{} poco después,
+este\ldots{} si me llamaron la atención en base a eso.
+
+E: ¿Por qué? ¿Cómo supieron que fuiste tú? ¿Quién te llamó la atención?
+
+I: Eh, en aquel entonces los directivos de la escuela. No fueron directivos,
+fueron los que ya me habían checado, los del SIA, de la universidad,
+que son los que tienen el control del servidor. Entonces ellos pueden
+rastrear el IP. Tonces más o menos dicen: \textquotedblleft{}No, pos,
+¿quién atacó la última vez? Pues... éste.\textquotedblright{}
+
+E: Ah, ¿y sospecharon de ti inmediatamente? Por que te habían corrido,
+pues.
+
+I: Sí, sí. Y de hecho después volví por algo así. O sea, me dieron
+la oportunidad de conocer a un amigo ingeniero en electrónica que
+conocía a un maestro. Por medio de ese maestro y este alumno, eh,
+hablando con el director me dieron \textquotedblleft{}chance\textquotedblright{}
+de volver a entrar. Claro que en el momento de volver a entrar\ldots{}
+
+E: ¿De qué... como de qué año estamos hablando?
+
+I: Estamos hablando del dos mil uno o dos mil dos.
+
+E: ¿Dos mil uno? Es que a mí me tocó ver que se saturó el sistema.
+O sea, yo no estaba en la universidad pero muchos amigos sí y estaban
+batallando un chorro por el... Y fue más o menos en ese año.
+
+I: Si, si. La verdad eso si lo hice porque se me hacía injusto el
+sistema de la universidad para poder darte de alta. Muchas veces batallabas,
+si no se te había un laboratorio no te daban la materia o viceversa.
+O sea, mucha de nuestra carga suelen estar seriadas la materia con
+el laboratorio, si se llena el laboratorio pues no se te abre la materia,
+entonces te vas rezagando y vas quedando al final. Y se me hacía muy
+injusto de que, \textquotedblleft{}¿Sabes qué? Pues\ldots{} Nel, o
+sea, no te puedes inscribir\textquotedblright{}. Y a mí me llevo un
+semestre después de volver a entrar, que no pude dar, de cinco materias,
+no pude dar una, porque todo está saturado, o era laboratorio o los
+horarios se traslapaban. Entonces dije: Si la universidad está haciendo
+este sistema, según para que funcione a través de Internet para más
+facilidad para los alumnos, pues, ¿por qué no piensan también en la
+disponibilidad de horarios quebrados que tienen, claro está, para
+poderlos organizar de una manera de que si no se abre o se te cierra
+una se abre otra, o simplemente contratar más maestros y abrir más
+grupos? Que la universidad claro está, puede. Pero en base a eso,
+pues el sistema era pues tonto. O sea, te atrasaba más. Muchos alumnos
+se quedaban: \textquotedblleft{}¿Qué onda? O sea, ¿por qué? Yo quería
+esta materia y ahora ninguna\textquotedblright{}. Y pues empezaron
+a hacer los cambios en los planes. Era como el Pac-man, de comerse
+las bolitas y que no te alcanzaran porque ahí te agarraban y ahí quedabas.
+Entonces muchos de mis compañeros empezaron así, de que se atrasaban
+y planes nuevos, planes nuevos. Una forma de la cual a mí me protegió
+ese plan, que yo de hecho pues, me corrieron dos años y luego un año,
+así estuve fuera, luego estuve fuera otro.
+
+E: ¿Cómo que luego un año después dos años, luego otro?
+
+I: Es que volví a hacer cosas, entonces\ldots{} 
+
+E: Ok, pero, bueno vamos a\ldots{} Dijiste que te volvieron a meter
+unos compañeros...
+
+I: Ajá, un compañero y un maestro me dieron la oportunidad de estar
+ahí, eh. Después tuve un problema con una materia y entonces este\ldots{}
+
+E: ¿Y empezaste desde principio otra vez?
+
+I: No, donde me había quedado. Entonces trataba de\ldots{} Pues sí,
+o sea, en sí no me podrían hacer nada, je, je, je.
+
+E: ¿Por qué?
+
+I: Porque aparte de que sí los apoyaba muy bien, estos maestros me
+ayudaban muy bien, tonces... Este, en base a esto\ldots{} Mmm\ldots{}
+Les agradezco todo lo que hicieron pues, igual yo aprendí. Antes era
+una persona muy, muy, muy... Era muy poco centrada. Era un desmadre,
+era muy hocicón también en ese tiempo. Si el maestro no sabía, acá,
+yo me le ponía al tiro. Llegó un momento en el que yo me deprimía.
+Me deprimía ir a la escuela a sentarme y que me dijeran puras estupideces.
+Entonces dije: ¿Sabes qué? Prefiero venir y hacer un proyecto al final,
+en el cual pues en base a esos proyecto, pues ir pasando materias,
+y si, en muchas materias quede exento. Maestros muy, muy, muy buenos
+que aceptaban lo que yo conocía. Entonces fácil yo creo, fui si acaso
+un año y medio o dos años a la universidad, en algunas materias, de
+las treinta tantas entré como a unas diez, son contadas, en las otras
+siempre fui al final, en muchas fui exento, quedé exento, entonces\ldots{}
+este\ldots{} Una de las cosas por las que me daba más en hacer este
+tipo de cosas de los ataques a los sistemas de la universidad era
+por eso, por simplemente de que no tenían el como el que\ldots{} el
+personal capaz para poder llevar a cabo el, no sé, que el alumno aprendiera,
+sobresaliera y todo eso. Tonces... Era mucha burocracia, mucho, mucho...
+Cosas que a mí... odié de la universidad. Todo eso, me hice un...
+Sí, como me llamaban así de que un Mosh o no sé\ldots{}
+
+E: ¿Mosh?
+
+I: El Mosh, el de la UNAM, que se puso de moda.
+
+E: ¡Ah!
+
+I: Que hacía su desmadre, acá, tipo revolucionario. Pero eso es algo
+que a mí tampoco me gustaba hacer. Simplemente yo tenía mis métodos
+y me enfocaba a lo mío. Entonces en base a ese sistema de la universidad
+y también, o sea de, de\ldots{} como te diré, de que todo era un grupito
+mismo, o sea, el mismo grupito de maestros querían controlar todo
+pues, no dejaban entrar a nuevos o mentes frescas y todo eso. Entonces
+era como que, eso es, es una mafia pues, en base a esa mafia pues
+que más que tratar de corromperla o romperla para dispersarla, pues.
+En base a eso, pues otras personas empezaron a hacer ataques, ataques,
+y ataques. A lo cual vez que empezaron a un cambiar el sistema de
+inscripciones, eh\ldots{} Empezamos a saturar el servidor, usaron
+de pretexto, eh, un virus que estaba famoso que era el \textquotedblleft{}Blaster\textquotedblright{},
+que en base a ese grandioso virus, o sea, lo pudimos meter e inyectar
+para hacerlo ver como que el culpable... Y no inculpar a nosotros.
+Claro que ese ataque fue por varias personas que conocían, entonces
+fue como que un ataque directo... 
+
+E: ¿O sea, quién le echó la culpa del ataque?
+
+I: Pues de hecho, esos sistemas que empezaron a tronar de las escuelas
+y de bases en otras partes, este, pues fueron los mismos directivos
+de las escuelas o personas que desconocían si había sido por un ataques.
+Fue como el chivo expiatorio ese virus y lo tratamos de inyectar tanto,
+tanto, tanto, para que hiciera su función y nosotros limpiarnos las
+manos con el virus.
+
+E: Ah, OK. Ustedes metieron el virus.
+
+I: De hecho no lo metimos, lo propagamos.
+
+E: Este, no me queda claro, o sea, ¿quién le echó la culpa al virus?
+
+I: O sea, cuando hacíamos ataques a la universidad ya por lo general
+buscaban un virus, o sea fíjate, las personas esas que querían hacer
+algo buscaban algún virus y en base al virus lo inyectaban o hallaban
+la forma de mandarlo o por correo, o equis, si caían las personas
+empezaban a hacer, eh, su función, su desmadre los virus en los equipos
+de las escuelas y en base a eso ellos poder atacar sin necesidad de
+ser detectados. Simplemente \textquotedblleft{}está viruleada mi máquina\textquotedblright{}
+y ya, ni modo, o sea...
+
+E: Tú dices que había varias personas, ¿Tu conocías a las otras personas?
+
+I: Conocí a algunas, no todas. Conocí a unas por Internet, otras por
+mensaje, otras por... Físicamente.
+
+E: Y ellos, ¿por qué estaban haciendo eso, por qué estaban atacando?
+
+I: Igual, por el tipo de sistema, estaban en desacuerdo con el sistema,
+entonces pasaban cosas así, y pues ya sabían que, ahí va esta persona
+y ahí van conmigo. Me hablan me platican que está pasando, y ya pues,
+equis, o sea\ldots{} Simplemente pues, son cosas que pasan y pues...
+tienen que saber cómo, como defenderse. Y entonces en base a eso pues
+si empecé a meterme mucho con lo que es cuestión de soporte y seguridad.
+Había un amigo ingeniero que se hacia cargo de la seguridad, este\ldots{}
+También ahí, este, pues modificábamos cosas, este, puertos para poder
+proteger mejor el sistema, reestructuramos el cableado, este, pusimos
+varios nodos diferentes, servidores diferentes, por piso, entonces,
+eh, ya había un mejor control en base a eso.
+
+\pagebreak
+
+\bibliographystyle{plain}
+\addcontentsline{toc}{section}{\refname}\bibliography{/home/badbit/Dropbox/documentos/documentacion/library}
+
+\end{document}

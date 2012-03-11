@@ -1,0 +1,46 @@
+% Un ejemplo de un archivo LaTeX.
+\documentstyle[11pt]{article}
+
+% Aquí se establecen los márgenes. Los márgenes por default suckean webos
+% de burro, así que es buena idea poner unos más reducidos.
+\setlength{\topmargin}{-.5in}
+\setlength{\textheight}{9in}
+\setlength{\oddsidemargin}{.125in}
+\setlength{\textwidth}{6.25in}
+
+% Inicio del documento.
+\begin{document}
+\title{Ejemplo de LaTeX para mxlOpenSource}
+\author{Miguel Lozano\\
+Universidad Autónoma de Baja California}
+
+\today
+\maketitle
+Este articulo demuestra un set basico de instrucciones de LaTeX para comparar
+el codigo con el producto en HTML y PDF.
+
+\section {Reuniones 2600}
+La revista newyorkina 2600 convoca a reuniones los primeros viernes
+de cada mes. Estas reuniones 
+    se realizan en diferentes partes de todo
+        el mundo y no tienen
+         una
+          organización rigida. Los lugares elegidos
+normalmente son
+ centricos, abiertos al publico y donde hay acceso
+a Internet y teléfonos publicos. Por ejemplo, en San Diego se realizan
+en
+     La Jolla, en Phoenix en Central Avenue,
+      en Los Angeles en el Downtown
+            y en México D.F. cerca del Zocalo.
+            
+\section {Formulas matemáticas}
+Se pueden incluir funciones matematicas:
+\begin{equation}
+\left[
+{\bf X} + {\rm a} \ \geq\ 
+\underline{\hat a} \sum_i^N \lim_{x \rightarrow k} \delta C
+\right]
+\end{equation}
+
+\end{document}
